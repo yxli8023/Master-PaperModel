@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.15)  24 JAN 2021 17:22
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.15)  24 JAN 2021 20:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -201,8 +201,8 @@ File: ctexopts.cfg 2019/04/07 v2.4.15 Option configuration file (CTEX)
 )
 (d:/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-(d:/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+(d:/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count172
 \c@section=\count173
@@ -379,9 +379,6 @@ icle (CTEX)
 (d:/texlive/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2019/04/07 v2.4.15 Caption with encoding UTF8 (CTEX)
 ))
-(d:/texlive/texmf-dist/tex/latex/ctex/ctex-c5size.clo
-File: ctex-c5size.clo 2019/04/07 v2.4.15 c5size option (CTEX)
-)
 (d:/texlive/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
 File: ctex-fontset-windows.def 2019/04/07 v2.4.15 Windows fonts definition (CTE
 X)
@@ -840,11 +837,11 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidth=\dimen282
 \titlewidthlast=\dimen283
 \titlewidthfirst=\dimen284
-))
+)
 (d:/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen285
-) (./setting.tex)
+)) (./setting.tex)
 (d:/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2019/04/07 v3.7.2 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count322
@@ -936,23 +933,23 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(113.81102pt, 412.56497pt, 71.13188pt)
-* v-part:(T,H,B)=(99.58464pt, 660.10394pt, 85.35826pt)
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(56.9055pt, 702.78308pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=412.56497pt
-* \textheight=593.10394pt
-* \oddsidemargin=41.54103pt
-* \evensidemargin=41.54103pt
-* \topmargin=27.31465pt
+* \textwidth=426.79135pt
+* \textheight=635.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-15.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -977,6 +974,29 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count324
+
+Package fontspec Info: Could not resolve font "STSong/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "STSong/B" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "STSong/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Font family 'STSong(0)' created for font 'STSong' with
+(fontspec)             options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"STSong/OT:script=hani;language=DFLT;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
 File: cover/cover.pdf Graphic file (type pdf)
 <use cover/cover.pdf>
 File: cover/cover.pdf Graphic file (type pdf)
@@ -988,7 +1008,7 @@ File: cover/cover.pdf Graphic file (type pdf)
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 12.64723pt.
+Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
@@ -1028,24 +1048,25 @@ Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
 
  [1]
 
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15.05624> not available
+(Font)              size <14.4> substituted on input line 27.
+
+) [2] (./Main.toc
+
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.06> not available
-(Font)              size <17.28> substituted on input line 27.
+(Font)              size <17.28> substituted on input line 4.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 27.
+(Font)              size <10.95> substituted on input line 4.
 
-
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15.05624> not available
-(Font)              size <14.4> substituted on input line 32.
-
-) (./Main.toc [2])
+)
 \tf@toc=\write3
 \openout3 = `Main.toc'.
 
  [3] (./section1.tex) (./section2.tex) [1]
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 51.
+e 53.
  (./Main.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 24.
@@ -1058,11 +1079,11 @@ LaTeX Font Warning: Size substitutions with differences
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 23371 strings out of 492922
- 483913 string characters out of 6138841
- 582215 words of memory out of 5000000
- 27051 multiletter control sequences out of 15000+600000
- 541606 words of font info for 92 fonts, out of 8000000 for 9000
+ 23410 strings out of 492922
+ 484510 string characters out of 6138841
+ 581980 words of memory out of 5000000
+ 27076 multiletter control sequences out of 15000+600000
+ 544661 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  54i,18n,68p,832b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 

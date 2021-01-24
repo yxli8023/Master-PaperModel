@@ -1,5 +1,5 @@
 %A4纸张,ctexart为文章类型，改格式支持中文
-\documentclass[a4paper]{ctexart}
+\documentclass[12pt,a4paper]{ctexart}
 %宏包导入
 \input{package}
 %论文中所要用到图片的路径（建议用文件夹存储）
@@ -7,6 +7,7 @@
 \input{setting}
 %=================================正文
 \begin{document}
+\songti
 %作者信息与论文信息
 \clearpage
 \author{YuXuan-Li}
@@ -42,6 +43,7 @@
 %=================摘要==================
 \newpage
 \input{abstract}
+\newpage
 \tableofcontents%增加章节目录
 %================正文=======================
 \newpage

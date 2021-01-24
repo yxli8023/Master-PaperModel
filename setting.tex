@@ -4,7 +4,7 @@
 \makeatletter
 \@addtoreset{figure}{section}
 \renewcommand{\figurename}{图}               % 对图表中的Fig进行中文翻译变为图
-\renewcommand{\contentsname}{目录}           % 对Contents进行汉化为目录
+\renewcommand{\contentsname}{目$\qquad$录}           % 对Contents进行汉化为目录
 \renewcommand\listfigurename{插\ 图\ 目\ 录} % 对List of Figures进行汉化为插图目录
 \renewcommand\listtablename{表\ 格\ 目\ 录}  % 对List of Tables进行汉化表格目录
 \setcounter{tocdepth}{2}%目录章节深度设置
@@ -17,7 +17,7 @@
 \titlecontents{subsection}[2.5em]{\zihao{3}}{\thecontentslabel{$\quad$}}{}{\titlerule*[5pt]{$\cdot$}\contentspage}
 
 %=================================================================================
-\renewcommand{\baselinestretch}{2.0} %行间距1.5倍
+\renewcommand{\baselinestretch}{1.5} %行间距1.5倍
 %===============================页眉页脚设置================================
 \fancypagestyle{plain}{
 %\fancyhead[RE]{\leftmark} % 在偶数页的右侧显示章名
@@ -34,4 +34,7 @@
 %\renewcommand{\footrulewidth}{0pt}
 %\renewcommand\headrule{\hrule width \hsize height 2pt \kern 2pt \hrule width \hsize height 0.4pt}%页眉上双线
 }
+%=============== 全局字体设置 ===============
+\renewcommand{\songti}{\CJKfontspec{STSong}}% 华文宋体
+
 
