@@ -1,0 +1,67 @@
+\newcommand{\hei}{\CJKfamily{hei}}                           % 黑体
+\newcommand{\song}{\CJKfamily{song}}                         % 宋体
+\newcommand{\xiaochu}{\fontsize{36pt}{36pt}\selectfont}        %小初
+\newcommand{\erhao}{\fontsize{22pt}{22pt}\selectfont}        %二号
+\newcommand{\xiaoerhao}{\fontsize{18pt}{18pt}\selectfont}        %小二号
+\newcommand{\sanhao}{\fontsize{16pt}{16pt}\selectfont}       %三号
+\newcommand{\xiaosanhao}{\fontsize{15pt}{15pt}\selectfont}   %小三号
+\newcommand{\sihao}{\fontsize{14pt}{14pt}\selectfont}        %四号
+\newcommand{\xiaosihao}{\fontsize{12pt}{12pt}\selectfont}    %小四号
+\newcommand{\wuhao}{\fontsize{10.5pt}{10.5pt}\selectfont}    %五号
+\documentclass[a4paper]{report}%{ctexart}
+\usepackage[scale=.85,centering]{geometry}
+\usepackage{afterpage}
+\usepackage{times}
+\usepackage{graphicx,amsfonts,amsmath}
+\usepackage{indentfirst} %
+\usepackage{cite}
+\usepackage{pdfpages}
+\usepackage[UTF8]{ctex}%\usepackage{CJK}
+\usepackage{ctex}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}                            % ??
+\headsep=10pt % The distance between the text and the head
+\lhead{\bigskip\bigskip\bigskip\bigskip {$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$}{\sihao{分类号：}}\\ {$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$} \medskip {\sihao{UDC}}}
+\chead{}
+\rhead{\bigskip\bigskip\bigskip\bigskip {\sihao {密级：公开}}{$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$}\\ \medskip {\sihao {学号：2018021866}}{$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$}}
+\cfoot{}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{-0.4pt} %line width of head
+%\renewcommand{\footrulewidth}{0.4pt}
+\begin{document}\pagestyle{empty}
+	\pagestyle{fancy}
+	\centering\vspace*{30ex}{
+		\includegraphics[scale=1.8]{logo}\vspace{8ex}\\
+		{\emph{\sanhao{\textbf{South China Normal University}}}\vspace{3ex}}\\
+		{\xiaochu\song{\textbf{硕士学位论文}}\vspace{1ex}}\\
+		{\xiaoerhao{\textbf{（学术学位）}}\vspace{4ex}}\\
+		{\underline{\makebox{\textbf{\erhao{论文题目}}}}}
+	}
+	\bigskip\bigskip\bigskip\bigskip
+	
+	{\sihao
+		\begin{center}
+			\begin{tabular}{l}
+				\medskip
+				{学 {\hspace{0.5em}} 位{\hspace{0.5em}}申{\hspace{0.5em}}请{\hspace{0.5em}}人：}\underline{\makebox[16em]{李玉轩}}\\
+				\medskip
+				{专$\quad$业$\quad$名$\quad$称：}\underline{\makebox[16em]{凝聚态物理}}\\
+				\medskip
+				{研$\quad$究$\quad$方$\quad$向：}\underline{\makebox[16em]{高阶拓扑超导}}\\
+				\medskip
+				{所$\quad$在$\quad$院$\quad$系：}      \underline{\makebox[16em]{物理与电信工程学院}}\\
+				\medskip
+				{导师姓名及职称：}\underline{\makebox[16em]{周涛(教授)}}\bigskip\bigskip\bigskip\bigskip\\
+			\end{tabular}
+	\end{center}}
+	
+	
+	\bigskip
+	\bigskip
+	\bigskip
+	\centering{\sihao{$\quad$$\quad$年$\quad$$\quad$月$\quad$$\quad$日}}
+	
+\end{document}

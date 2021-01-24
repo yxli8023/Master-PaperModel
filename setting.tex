@@ -1,0 +1,37 @@
+\linespread{1.6}%行间距设置
+\numberwithin{equation}{section}%公式按照章节标号
+\renewcommand\thefigure{\thesection.\arabic{figure}}%图片按章节标号
+\makeatletter
+\@addtoreset{figure}{section}
+\renewcommand{\figurename}{图}               % 对图表中的Fig进行中文翻译变为图
+\renewcommand{\contentsname}{目录}           % 对Contents进行汉化为目录
+\renewcommand\listfigurename{插\ 图\ 目\ 录} % 对List of Figures进行汉化为插图目录
+\renewcommand\listtablename{表\ 格\ 目\ 录}  % 对List of Tables进行汉化表格目录
+\setcounter{tocdepth}{2}%目录章节深度设置
+
+%\setlength{\parskip}{0.5\baselineskip}% 设置空行换行后，上下两段文字间距
+%\titlespacing*{section}{0pt}{9pt}{0pt}% 设置标题与段落间距
+%============================= 目录设置 ======================
+\titlecontents{chapter}[1.5em]{\zihao{3}\bf }{\contentslabel{1.5em}}{\hspace*{-2em}}{\titlerule*[5pt]{$\cdot$}\contentspage}
+\titlecontents{section}[3.3em]{\zihao{-3}\bf }{\contentslabel{1.8em}}{\hspace*{-2.3em}}{\titlerule*[5pt]{$\cdot$}\contentspage}
+\titlecontents{subsection}[2.5em]{\zihao{3}}{\thecontentslabel{$\quad$}}{}{\titlerule*[5pt]{$\cdot$}\contentspage}
+
+%=================================================================================
+\renewcommand{\baselinestretch}{2.0} %行间距1.5倍
+%===============================页眉页脚设置================================
+\fancypagestyle{plain}{
+%\fancyhead[RE]{\leftmark} % 在偶数页的右侧显示章名
+\fancyhf{}
+%\fancyhead[C]{\rightmark} %页眉居中显示章节名
+\fancyhead[C]{高温超导异质结中的旋转对称破缺和部分马约拉纳角态} %页眉居中设置论文标题
+\fancyfoot[C]{第\thepage 页}
+%\fancyhead[LO]{\rightmark} % 在奇数页的左侧显示小节名
+%\fancyhead[LE,RO]{~\thepage~} % 在偶数页的左侧，奇数页的右侧显示页码
+% 设置页脚：在每页的右下脚以斜体显示书名
+%\fancyfoot[RO,RE]{\it \text{右下角内容}} %右下角增加\text{}中的内容
+\renewcommand{\headrulewidth}{1.0pt} % 页眉与正文之间的水平线粗细
+\renewcommand{\footrulewidth}{1.0pt}
+%\renewcommand{\footrulewidth}{0pt}
+%\renewcommand\headrule{\hrule width \hsize height 2pt \kern 2pt \hrule width \hsize height 0.4pt}%页眉上双线
+}
+

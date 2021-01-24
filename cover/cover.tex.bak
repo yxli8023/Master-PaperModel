@@ -1,0 +1,59 @@
+\newcommand{\hei}{\CJKfamily{hei}}                           % 黑体
+\newcommand{\erhao}{\fontsize{22pt}{22pt}\selectfont}        %二号
+\newcommand{\sanhao}{\fontsize{16pt}{16pt}\selectfont}       %三号
+\newcommand{\xiaosanhao}{\fontsize{15pt}{15pt}\selectfont}   %小三号
+\newcommand{\sihao}{\fontsize{14pt}{14pt}\selectfont}        %四号
+\newcommand{\xiaosihao}{\fontsize{12pt}{12pt}\selectfont}    %小四号
+\newcommand{\wuhao}{\fontsize{10.5pt}{10.5pt}\selectfont}    %五号
+\documentclass[a4paper]{ctexart}
+\usepackage[scale=.85,centering]{geometry}
+\usepackage{afterpage}
+\usepackage{times}
+\usepackage{graphicx,amsfonts,amsmath}
+\usepackage{indentfirst} %
+\usepackage{cite}
+\usepackage{pdfpages}
+\usepackage{CJK}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}                            % ??
+\headsep=10pt % The distance between the text and the head
+\lhead{\bigskip\bigskip\bigskip\bigskip \sihao{分类号：}\\ \medskip \sihao{UDC}}
+\chead{}
+\rhead{\bigskip\bigskip\bigskip\bigskip  \sihao {密级：公开}\\ \medskip \sihao {学号}：}
+\cfoot{}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{-0.4pt} %line width of head
+%\renewcommand{\footrulewidth}{0.4pt}
+\begin{document}\pagestyle{empty}
+\pagestyle{fancy}
+\centering\vspace*{30ex}{
+	\includegraphics[scale=1]{logo}\vspace{8ex}\\
+	\emph{\sanhao{\textbf{South China Normal University}}}\\
+    \sanhao{硕士学位论文}\\
+    \sanhao{（学术学位）}\vspace{4ex}\\
+	\underline{\makebox{\textbf{\erhao{超导系统中实现容错量子计算}}}}
+}
+\bigskip\bigskip\bigskip\bigskip
+
+{\sihao
+\begin{center}
+  \begin{tabular}{l}
+         {学$\quad$位$\quad$申请人：}\underline{\makebox[16em]{}}\medskip\\
+		 {专$\quad$业$\quad$名$\quad$称：}\underline{\makebox[16em]{}}\medskip\\
+		 {研$\quad$究$\quad$方$\quad$向：}\underline{\makebox[16em]{}}\medskip\\
+		 {所$\quad$在$\quad$院$\quad$系：}      \underline{\makebox[16em]{物理与电信工程学院}}\medskip\\
+		 {导师姓名及职称：}\underline{\makebox[16em]{}}\bigskip\bigskip\bigskip\bigskip\\
+  \end{tabular}
+\end{center}}
+
+
+\bigskip
+\bigskip
+\bigskip
+\centering{\hei{$\quad$$\quad$年$\quad$$\quad$月$\quad$$\quad$日}}
+
+\end{document}
