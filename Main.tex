@@ -30,9 +30,9 @@
 % alph - 小写的字符形式
 % Alph -大写的字符形式
 %======================================================================
-\makeatother %生成目录
+%\makeatother %生成目录
 %\addcontentsline{toc}{chapter}{\contentsname}
-\tableofcontents%增加章节目录
+%\tableofcontents%增加章节目录
 
 %\newpage%另起一页
 %\listoftables%增加表格目录
@@ -42,12 +42,19 @@
 %=================摘要==================
 \newpage
 \input{abstract}
+\tableofcontents%增加章节目录
 %================正文=======================
 \newpage
 \input{section1}
+\input{section2}
 %==============================================================================
- \newpage
+\newpage
 \addcontentsline{toc}{section}{参考文献} %向目录中添加条目，以章的名义
 \bibliography{ref}%加入参考文献
 \bibliographystyle{IEEEtran} % 参考文献样式
+%==============================================
+\addcontentsline{toc}{section}{致谢} %向目录中添加条目，以章的名义
+\input{thanks}  % 致谢
+\addcontentsline{toc}{section}{参考文献} %向目录中添加条目，以章的名义
+\input{publish}  % 论文发表
 \end{document}

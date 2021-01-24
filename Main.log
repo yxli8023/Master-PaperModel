@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.15)  24 JAN 2021 16:56
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.15)  24 JAN 2021 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Thesis_model.tex
-(./Thesis_model.tex
+**Main.tex
+(./Main.tex
 LaTeX2e <2018-12-01>
 (d:/texlive/texmf-dist/tex/latex/ctex/ctexart.cls
 (d:/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -828,7 +828,7 @@ File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
 Package: listings 2019/02/27 1.8b (Carsten Heinz)
-)
+
 (d:/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box68
@@ -840,18 +840,17 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidth=\dimen282
 \titlewidthlast=\dimen283
 \titlewidthfirst=\dimen284
-) (./setting.tex
+))
 (d:/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen285
-))
+) (./setting.tex)
 (d:/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2019/04/07 v3.7.2 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count322
 \l__xeCJK_listings_flag_int=\count323
-)
-(./Thesis_model.aux)
-\openout1 = `Thesis_model.aux'.
+) (./Main.aux)
+\openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -869,7 +868,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
- ABD: EverySelectfont initializing macros
+
+ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 9.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -1002,29 +1002,7 @@ File: cover/cover.pdf Graphic file (type pdf)
 <use cover/cover.pdf, page 1>
 File: cover/cover.pdf Graphic file (type pdf)
 <use cover/cover.pdf, page 1>
- [2] (./Thesis_model.toc
-
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15.05624> not available
-(Font)              size <14.4> substituted on input line 1.
-
-
-Overfull \hbox (3.52315pt too wide) detected at line 2
- \TU/lmr/bx/n/15.05624 III
- []
-
-
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.06> not available
-(Font)              size <17.28> substituted on input line 4.
-
-
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 4.
-
-)
-\tf@toc=\write3
-\openout3 = `Thesis_model.toc'.
-
- [1] (./abstract.tex
+ [2] (./abstract.tex
 
 Package fontspec Info: Could not resolve font "SimHei/BI" (it probably doesn't
 (fontspec)             exist).
@@ -1048,11 +1026,31 @@ Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
 (fontspec)             <->"SimHei/OT:script=hani;language=DFLT;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [2]) [3] (./section1.tex) [1]
+ [1]
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.06> not available
+(Font)              size <17.28> substituted on input line 27.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 27.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15.05624> not available
+(Font)              size <14.4> substituted on input line 32.
+
+) (./Main.toc [2])
+\tf@toc=\write3
+\openout3 = `Main.toc'.
+
+ [3] (./section1.tex) (./section2.tex) [1]
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 54.
- (./Thesis_model.bbl)
-[2] (./Thesis_model.aux)
+e 51.
+ (./Main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 24.
+
+) (./thanks.tex [2]) (./publish.tex [3]) [4] (./Main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.22pt have occurred.
@@ -1060,12 +1058,12 @@ LaTeX Font Warning: Size substitutions with differences
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 23372 strings out of 492922
- 484086 string characters out of 6138841
- 582251 words of memory out of 5000000
- 27058 multiletter control sequences out of 15000+600000
- 541614 words of font info for 93 fonts, out of 8000000 for 9000
+ 23371 strings out of 492922
+ 483913 string characters out of 6138841
+ 582215 words of memory out of 5000000
+ 27051 multiletter control sequences out of 15000+600000
+ 541606 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 54i,18n,68p,840b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,18n,68p,832b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis_model.pdf (7 pages).
+Output written on Main.pdf (9 pages).
