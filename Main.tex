@@ -1,11 +1,7 @@
-%A4纸张,ctexart为文章类型，改格式支持中文
-\documentclass[12pt,a4paper]{ctexart}
-%宏包导入
-\input{package}
-%论文中所要用到图片的路径（建议用文件夹存储）
-%文章整体格式与布局设置
-\input{setting}
-%=================================正文
+\documentclass[12pt,a4paper]{ctexart}%A4纸张,ctexart为文章类型，改格式支持中文
+\input{package}%宏包导入
+\input{setting}%文章整体格式与布局设置
+%==================   正文  ======================================
 \begin{document}
 \songti
 %作者信息与论文信息
@@ -15,7 +11,7 @@
 \date{\today}
 \maketitle
 %毕业论文封面
-\includepdf{cover/cover.pdf}
+%\includepdf{cover/cover.pdf}
 
 %======================页码设置
 % empty - 没有页眉和页脚
@@ -48,13 +44,24 @@
 %================正文=======================
 \newpage
 \input{section1}
+\newpage
 \input{section2}
+\newpage
+\input{section3}
+\newpage
+\input{section4}
+\newpage
+\input{section5}
+\newpage
+\input{section6}
 %==============================================================================
 \newpage
 \addcontentsline{toc}{section}{参考文献} %向目录中添加条目，以章的名义
+%\bibliographystyle{IEEEtran} % 参考文献样式
+\bibliographystyle{elsarticle-num} % 大致可以
 \bibliography{ref}%加入参考文献
-\bibliographystyle{IEEEtran} % 参考文献样式
 %==============================================
+\newpage
 \addcontentsline{toc}{section}{致谢} %向目录中添加条目，以章的名义
 \input{thanks}  % 致谢
 \addcontentsline{toc}{section}{参考文献} %向目录中添加条目，以章的名义

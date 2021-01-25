@@ -16,7 +16,7 @@
 \titlecontents{section}[3.3em]{\zihao{-3}\bf }{\contentslabel{1.8em}}{\hspace*{-2.3em}}{\titlerule*[5pt]{$\cdot$}\contentspage}
 \titlecontents{subsection}[2.5em]{\zihao{3}}{\thecontentslabel{$\quad$}}{}{\titlerule*[5pt]{$\cdot$}\contentspage}
 
-%=================================================================================
+%==========================================================================
 \renewcommand{\baselinestretch}{1.5} %行间距1.5倍
 %===============================页眉页脚设置================================
 \fancypagestyle{plain}{
@@ -37,4 +37,9 @@
 %=============== 全局字体设置 ===============
 \renewcommand{\songti}{\CJKfontspec{STSong}}% 华文宋体
 
+%===============================  引用上标设置 ===========
+\makeatletter
+\def\@cite#1#2{\textsuperscript{[{#1\if@tempswa , #2\fi}]}}
+\makeatother
+%============= 设置自己的简短命令 ============================
 
