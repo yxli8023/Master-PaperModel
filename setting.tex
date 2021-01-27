@@ -38,8 +38,9 @@
 \renewcommand{\songti}{\CJKfontspec{STSong}}% 华文宋体
 
 %===============================  引用上标设置 ===========
-\makeatletter
-\def\@cite#1#2{\textsuperscript{[{#1\if@tempswa , #2\fi}]}}
-\makeatother
+%\makeatletter
+%\def\@cite#1#2{\textsuperscript{[{#1\if@tempswa , #2\fi}]}}
+%\makeatother
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}} %之后的文献上标引用使用\upcite{}
 %============= 设置自己的简短命令 ============================
 

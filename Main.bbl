@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -14,5 +14,280 @@ K.~v. Klitzing, G.~Dorda, M.~Pepper, New method for high-accuracy determination
 D.~J. Thouless, M.~Kohmoto, M.~P. Nightingale, M.~den Nijs, Quantized hall
   conductance in a two-dimensional periodic potential, Phys. Rev. Lett. 49
   (1982) 405--408.
+
+\bibitem{re3}
+F.~D.~M. Haldane,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.61.2015}{Model for a
+  quantum hall effect without landau levels: Condensed-matter realization of
+  the "parity anomaly"}, Phys. Rev. Lett. 61 (1988) 2015--2018.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.61.2015}
+  {\path{doi:10.1103/PhysRevLett.61.2015}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.61.2015}
+
+\bibitem{re5}
+M.~K{\"o}nig, S.~Wiedmann, C.~Br{\"u}ne, A.~Roth, H.~Buhmann, L.~W. Molenkamp,
+  X.-L. Qi, S.-C. Zhang,
+  \href{https://science.sciencemag.org/content/318/5851/766}{Quantum spin hall
+  insulator state in hgte quantum wells}, Science 318~(5851) (2007) 766--770.
+\newblock \href
+  {http://arxiv.org/abs/https://science.sciencemag.org/content/318/5851/766.full.pdf}
+  {\path{arXiv:https://science.sciencemag.org/content/318/5851/766.full.pdf}},
+  \href {https://doi.org/10.1126/science.1148047}
+  {\path{doi:10.1126/science.1148047}}.
+\newline\urlprefix\url{https://science.sciencemag.org/content/318/5851/766}
+
+\bibitem{re4}
+B.~A. Bernevig, T.~L. Hughes, S.-C. Zhang,
+  \href{https://science.sciencemag.org/content/314/5806/1757}{Quantum spin hall
+  effect and topological phase transition in \textrm{HgTe} quantum wells},
+  Science 314~(5806) (2006) 1757–1761--1757–1761.
+\newline\urlprefix\url{https://science.sciencemag.org/content/314/5806/1757}
+
+\bibitem{re7}
+J.~C. H.~Kamerlingh~Onnes, Commun. Phys. Lab. Univ. Leiden (1911) page 120.
+
+\bibitem{re8}
+W.~Meissner, Ochsenfeld, Naturwissenschaften 21 (1933) 787--788.
+
+\bibitem{re9}
+J.~Bardeen, L.~N. Cooper, J.~R. Schrieffer,
+  \href{https://link.aps.org/doi/10.1103/PhysRev.106.162}{Microscopic theory of
+  superconductivity}, Phys. Rev. 106 (1957) 162--164.
+\newblock \href {https://doi.org/10.1103/PhysRev.106.162}
+  {\path{doi:10.1103/PhysRev.106.162}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRev.106.162}
+
+\bibitem{re10}
+P.~A. Lee, N.~Nagaosa, X.-G. Wen, Doping a mott insulator: Physics of
+  high-temperature superconductivity, Reviews of Modern Physics 78~(1) (2006)
+  17--85.
+
+\bibitem{re11}
+X.-L. Qi, S.-C. Zhang, Topological insulators and superconductors, Reviews of
+  Modern Physics 83~(4) (2011) 1057--1110.
+
+\bibitem{re12}
+A.~Kitaev, Periodic table for topological insulators and superconductors, AIP
+  Conference Proceedings 1134~(1) (2009) 22--30.
+\newblock \href {https://doi.org/10.1063/1.3149495}
+  {\path{doi:10.1063/1.3149495}}.
+
+\bibitem{re19}
+L.~Fu, C.~L. Kane,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.100.096407}{Superconducting
+  proximity effect and majorana fermions at the surface of a topological
+  insulator}, Phys. Rev. Lett. 100 (2008) 096407.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.100.096407}
+  {\path{doi:10.1103/PhysRevLett.100.096407}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.100.096407}
+
+\bibitem{re20}
+M.~Sato, \href{https://link.aps.org/doi/10.1103/PhysRevB.79.214526}{Topological
+  properties of spin-triplet superconductors and fermi surface topology in the
+  normal state}, Phys. Rev. B 79 (2009) 214526.
+\newblock \href {https://doi.org/10.1103/PhysRevB.79.214526}
+  {\path{doi:10.1103/PhysRevB.79.214526}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.79.214526}
+
+\bibitem{re21}
+J.~D. Sau, R.~M. Lutchyn, S.~Tewari, S.~Das~Sarma,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.104.040502}{Generic new
+  platform for topological quantum computation using semiconductor
+  heterostructures}, Phys. Rev. Lett. 104 (2010) 040502.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.104.040502}
+  {\path{doi:10.1103/PhysRevLett.104.040502}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.104.040502}
+
+\bibitem{re22}
+M.~Sato, Y.~Takahashi, S.~Fujimoto,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.82.134521}{Non-abelian
+  topological orders and majorana fermions in spin-singlet superconductors},
+  Phys. Rev. B 82 (2010) 134521.
+\newblock \href {https://doi.org/10.1103/PhysRevB.82.134521}
+  {\path{doi:10.1103/PhysRevB.82.134521}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.82.134521}
+
+\bibitem{re13}
+A.~R. Akhmerov, J.~Nilsson, C.~W.~J. Beenakker,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.102.216404}{Electrically
+  detected interferometry of majorana fermions in a topological insulator},
+  Phys. Rev. Lett. 102 (2009) 216404.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.102.216404}
+  {\path{doi:10.1103/PhysRevLett.102.216404}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.102.216404}
+
+\bibitem{re14}
+M.~Sato, S.~Fujimoto,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.105.217001}{Existence of
+  majorana fermions and topological order in nodal superconductors with
+  spin-orbit interactions in external magnetic fields}, Phys. Rev. Lett. 105
+  (2010) 217001.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.105.217001}
+  {\path{doi:10.1103/PhysRevLett.105.217001}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.105.217001}
+
+\bibitem{re15}
+K.~Yada, M.~Sato, Y.~Tanaka, T.~Yokoyama,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.83.064505}{Surface density of
+  states and topological edge states in noncentrosymmetric superconductors},
+  Phys. Rev. B 83 (2011) 064505.
+\newblock \href {https://doi.org/10.1103/PhysRevB.83.064505}
+  {\path{doi:10.1103/PhysRevB.83.064505}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.83.064505}
+
+\bibitem{re16}
+J.~Linder, Y.~Tanaka, T.~Yokoyama, A.~Sudb\o{}, N.~Nagaosa,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.104.067001}{Unconventional
+  superconductivity on a topological insulator}, Phys. Rev. Lett. 104 (2010)
+  067001.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.104.067001}
+  {\path{doi:10.1103/PhysRevLett.104.067001}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.104.067001}
+
+\bibitem{re17}
+R.~Aguado, Majorana quasiparticles in condensed matter, Riv. Nuovo Cimento Soc.
+  Ital. Fis. 40 (2017) 523.
+
+\bibitem{re18}
+R.~Aguado, Fault-tolerant quantum computation by anyons, Ann. Phys. (Amsterdam)
+  303 (2003) 2.
+
+\bibitem{re23}
+F.~Schindler, A.~M. Cook, M.~G. Vergniory, Z.~Wang, S.~S.~P. Parkin, B.~A.
+  Bernevig, T.~Neupert, Higher-order topological insulators, Science Advances
+  4~(6) (2018).
+\newblock \href {https://doi.org/10.1126/sciadv.aat0346}
+  {\path{doi:10.1126/sciadv.aat0346}}.
+
+\bibitem{re24}
+W.~A. Benalcazar, B.~A. Bernevig, T.~L. Hughes,
+  \href{https://science.sciencemag.org/content/sci/357/6346/61.full.pdf}{Quantized
+  electric multipole insulators} 357~(6346) (2017) 61--66.
+\newline\urlprefix\url{https://science.sciencemag.org/content/sci/357/6346/61.full.pdf}
+
+\bibitem{re25}
+W.~A. Benalcazar, B.~A. Bernevig, T.~L. Hughes, Electric multipole moments,
+  topological multipole moment pumping, and chiral hinge states in crystalline
+  insulators, Physical Review B 96~(24) (2017).
+
+\bibitem{re26}
+Z.~Song, Z.~Fang, C.~Fang,
+  \href{https://www.ncbi.nlm.nih.gov/pubmed/29286745}{(d-2)-dimensional edge
+  states of rotation symmetry protected topological states}, Phys Rev Lett
+  119~(24) (2017) 246402.
+\newline\urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/29286745}
+
+\bibitem{re27}
+Q.~Wang, C.~C. Liu, Y.~M. Lu, F.~Zhang,
+  \href{https://www.ncbi.nlm.nih.gov/pubmed/30444417}{High-temperature majorana
+  corner states}, Phys Rev Lett 121~(18) (2018) 186801.
+\newline\urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/30444417}
+
+\bibitem{re28}
+Z.~Yan, F.~Song, Z.~Wang,
+  \href{https://www.ncbi.nlm.nih.gov/pubmed/30230860}{Majorana corner modes in
+  a high-temperature platform}, Phys Rev Lett 121~(9) (2018) 096803.
+\newline\urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/30230860}
+
+\bibitem{re29}
+R.~X. Zhang, W.~S. Cole, X.~Wu, S.~Das~Sarma,
+  \href{https://www.ncbi.nlm.nih.gov/pubmed/31702343}{Higher-order topology and
+  nodal topological superconductivity in fe(se,te) heterostructures}, Phys Rev
+  Lett 123~(16) (2019) 167001.
+\newline\urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/31702343}
+
+\bibitem{re30}
+D.~Călugăru, V.~Juričić, B.~Roy, Higher-order topological phases: A general
+  principle of construction, Physical Review B 99~(4) (2019).
+
+\bibitem{re31}
+Y.~T. Hsu, W.~S. Cole, R.~X. Zhang, J.~D. Sau,
+  \href{https://www.ncbi.nlm.nih.gov/pubmed/32915630}{Inversion-protected
+  higher-order topological superconductivity in monolayer wte$_{2}$}, Phys Rev
+  Lett 125~(9) (2020) 097001.
+\newline\urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/32915630}
+
+\bibitem{re32}
+Z.~Wang, B.~J. Wieder, J.~Li, B.~Yan, B.~A. Bernevig,
+  \href{https://www.ncbi.nlm.nih.gov/pubmed/31763917}{Higher-order topology,
+  monopole nodal lines, and the origin of large fermi arcs in transition metal
+  dichalcogenides xte$_{2}$ (x=mo,w)}, Phys Rev Lett 123~(18) (2019) 186401.
+\newline\urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/31763917}
+
+\bibitem{re33}
+Y.~Xu, Z.~Song, Z.~Wang, H.~Weng, X.~Dai,
+  \href{https://www.ncbi.nlm.nih.gov/pubmed/31347874}{Higher-order topology of
+  the axion insulator euin$_{2}$as$_{2}$}, Phys Rev Lett 122~(25) (2019)
+  256402.
+\newline\urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/31347874}
+
+\bibitem{re34}
+Z.~Yan, Majorana corner and hinge modes in second-order topological
+  insulator/superconductor heterostructures, Physical Review B 100~(20) (2019).
+
+\bibitem{re35}
+Z.~Yan, \href{https://www.ncbi.nlm.nih.gov/pubmed/31702245}{Higher-order
+  topological odd-parity superconductors}, Phys Rev Lett 123~(17) (2019)
+  177001.
+\newline\urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/31702245}
+
+\bibitem{re36}
+Z.~Yan, Unconventional topological insulators from extended topological band
+  degeneracies, Physical Review B 102~(11) (2020).
+
+\bibitem{re37}
+R.~X. Zhang, W.~S. Cole, S.~Das~Sarma,
+  \href{https://www.ncbi.nlm.nih.gov/pubmed/31144910}{Helical hinge majorana
+  modes in iron-based superconductors}, Phys Rev Lett 122~(18) (2019) 187001.
+\newline\urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/31144910}
+
+\bibitem{re38}
+R.~X. Zhang, W.~S. Cole, X.~Wu, S.~Das~Sarma,
+  \href{https://www.ncbi.nlm.nih.gov/pubmed/31702343}{Higher-order topology and
+  nodal topological superconductivity in fe(se,te) heterostructures}, Phys Rev
+  Lett 123~(16) (2019) 167001.
+\newline\urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/31702343}
+
+\bibitem{re39}
+X.~Zhu, \href{https://www.ncbi.nlm.nih.gov/pubmed/31298896}{Second-order
+  topological superconductors with mixed pairing}, Phys Rev Lett 122~(23)
+  (2019) 236401.
+\newline\urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/31298896}
+
+\bibitem{re40}
+严忠波,
+  \href{http://wulixb.iphy.ac.cn/cn/article/id/6e11065a-f00b-45af-bb03-f9e9a1fdb514}{高阶拓扑绝缘体和高阶拓扑超导体简介},
+  物理学报 68~(22) (2019) 226101--226101.
+\newline\urlprefix\url{http://wulixb.iphy.ac.cn/cn/article/id/6e11065a-f00b-45af-bb03-f9e9a1fdb514}
+
+\bibitem{re41}
+S.~Wu, V.~Fatemi, Q.~D. Gibson, K.~Watanabe, T.~Taniguchi, R.~J. Cava,
+  P.~Jarillo-Herrero, Observation of the quantum spin hall effect up to 100
+  kelvin in a monolayer crystal, Science 359~(6371) (2018) 76--79.
+\newblock \href {https://doi.org/10.1126/science.aan6003}
+  {\path{doi:10.1126/science.aan6003}}.
+
+\bibitem{re42}
+X.~Qian, J.~Liu, L.~Fu, J.~Li, Quantum spin hall effect in two-dimensional
+  transition metal dichalcogenides, Science 346~(6215) (2014) 1344--1347.
+\newblock \href {https://doi.org/10.1126/science.1256815}
+  {\path{doi:10.1126/science.1256815}}.
+
+\bibitem{re43}
+D.-H. Lee, G.-M. Zhang, T.~Xiang,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.99.196805}{Edge solitons
+  of topological insulators and fractionalized quasiparticles in two
+  dimensions}, Phys. Rev. Lett. 99 (2007) 196805.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.99.196805}
+  {\path{doi:10.1103/PhysRevLett.99.196805}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.99.196805}
+
+\bibitem{re44}
+R.~Jackiw, C.~Rebbi,
+  \href{https://link.aps.org/doi/10.1103/PhysRevD.13.3398}{Solitons with
+  fermion number \textonehalf{}}, Phys. Rev. D 13 (1976) 3398--3409.
+\newblock \href {https://doi.org/10.1103/PhysRevD.13.3398}
+  {\path{doi:10.1103/PhysRevD.13.3398}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.13.3398}
 
 \end{thebibliography}

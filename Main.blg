@@ -1,46 +1,50 @@
-This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Main.aux
 The style file: elsarticle-num.bst
 Database file #1: ref.bib
-You've used 2 entries,
+Warning--empty title in re7
+Warning--empty title in re8
+Warning--empty journal in re24
+You've used 43 entries,
             2952 wiz_defined-function locations,
-            683 strings with 5410 characters,
-and the built_in function-call counts, 665 in all, are:
-= -- 62
-> -- 23
+            961 strings with 12838 characters,
+and the built_in function-call counts, 13709 in all, are:
+= -- 1344
+> -- 430
 < -- 0
-+ -- 9
-- -- 7
-* -- 48
-:= -- 112
-add.period$ -- 2
-call.type$ -- 2
-change.case$ -- 2
++ -- 172
+- -- 129
+* -- 1191
+:= -- 1954
+add.period$ -- 60
+call.type$ -- 43
+change.case$ -- 41
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 16
-empty$ -- 65
-format.name$ -- 9
-if$ -- 155
+cite$ -- 46
+duplicate$ -- 387
+empty$ -- 1510
+format.name$ -- 161
+if$ -- 3488
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 14
-num.names$ -- 2
-pop$ -- 10
+int.to.str$ -- 43
+missing$ -- 43
+newline$ -- 181
+num.names$ -- 43
+pop$ -- 218
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 36
+skip$ -- 758
 stack$ -- 0
-substring$ -- 50
-swap$ -- 2
+substring$ -- 809
+swap$ -- 106
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 6
-width$ -- 3
-write$ -- 23
+warning$ -- 3
+while$ -- 89
+width$ -- 45
+write$ -- 414
+(There were 3 warnings)
