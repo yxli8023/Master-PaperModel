@@ -32,7 +32,15 @@ H_{SC}=\sum_{{\bf k}\sigma}\varepsilon_{\bf k}d^\dagger_{{\bf k}\sigma}d_{{\bf k
 H_{I}=-t_\perp \sum_{{\bf k}\tau\sigma}(c_{{\bf k}\tau\sigma}^\dagger d_{{\bf k}\sigma}+h.c.).
 \end{equation}
 
-\qquad 为了研究边界条件，我们通常习惯对哈密顿量考虑一个圆柱体结构，即在某一个方向上的尺寸是有限的，另外一个方向是周期的，这样有限尺寸方向的平移对称性被迫害。这种情况下只需要对哈密顿量沿这个方向做傅里叶变换。 比如，我们考虑沿$y$方向取开边界条件，哈密顿量可以表示为
+\qquad 为了研究边界条件，我们通常习惯对哈密顿量考虑一个圆柱体结构，如图\ref{fig15}所示，即在某一个方向上的尺寸是有限的，另外一个方向是周期的，这样有限尺寸方向的平移对称性被破坏。这种情况下只需要对哈密顿量沿这个方向做傅里叶变换。
+\begin{figure}
+\centering
+\includegraphics[scale=0.6]{pic/fig16}
+\caption{圆柱形结构示意图}\label{fig15}
+\end{figure}
+
+
+\qquad 比如，我们考虑沿$y$方向取开边界条件，哈密顿量可以表示为
 \begin{equation}
 	\begin{aligned}
 		H_{TI} &= \sum_{y,k_x}C^\dagger_{y}(k_x)[(h_0-2t\cos k_x)\sigma_3s_0 \\&+2\lambda_0\sin k_x\sigma_1s_0]C_{y}(k_x)
@@ -185,3 +193,181 @@ A_{y}(k_{x},\omega)=-\frac{1}{\pi}\sum_{p=1}^{4}\mathrm{Im} G_{m+p,m+p}(k_x,\ome
 \qquad 在接下来的计算中，我们取跃迁常数$t$作为能量单位（从高温超导体的带宽可以估计出$t=0.17eV$），其他的参数设置如下；$\lambda_0=0.5$, $h_0=3$, $\mu=-0.3$, $\Delta_0=0.2$, $t_\perp=0.8$,$\Gamma=0.01$.
 %============================================
 \subsection{运动方程}
+\qquad 对任意两个算符$A$与$B$组成的函数，在海森堡绘景中
+\begin{equation}
+\begin{aligned}
+G_r(t,t^{'})&=-\frac{i}{\hbar}\theta(t-t^{'})\langle\left[A(t),B(t^{'})\right]_\pm\rangle\\
+&=\left\{
+\begin{array}{cc}
+-\frac{i}{\hbar}(\langle A(t)B(t^{'})\rangle\pm\langle B(t^{'})A(t)\rangle)\quad (t>t^{'})\\
+0\quad(t<t^{'})
+\end{array}
+\right.\\
+&=\langle\langle A(t);B(t^{'})\rangle\rangle_r\label{eom1}
+\end{aligned}
+\end{equation}
+这里泊松括号的下标$\pm$是为了方便这样标记的，当$A$与$B$是费米子型算符时，满足反对易关系，此时取$+$号，而对于玻色子型算符，则满足对易关系，此时取$-$号。在公式(\ref{eom1})中$\langle\dots\rangle$代表统计平均，对于正则系综
+\begin{equation}
+\langle A\rangle=Z^{-1}\mathrm{Tr}(e^{-\beta H}A),\quad Z=\mathrm{Tr}(e^{-\beta H}),\quad\beta=(k_BT)^{-1}
+\end{equation}
+由于算符乘积就迹具有轮换不变性
+\begin{equation}
+\mathrm{Tr}(ABC)=\mathrm{Tr}(CAB)=\mathrm{Tr}(BCA)
+\end{equation}
+则可以推导出
+\begin{equation}
+\begin{aligned}
+\langle A(t)B(t^{'})\rangle&=Z^{-1}\mathrm{Tr}(E^{-\beta H}e^{\frac{i}{\hbar}Ht}Ae^{-\frac{i}{\hbar}H(t-t^{'})}Be^{-\frac{i}{\hbar}Ht^{'}})\\
+&=Z^{-1}\mathrm{Tr}(e^{-\beta H}e^{\frac{i}{\hbar}H(t-t^{'})}Ae^{-\frac{i}{\hbar}H(t-t^{'})}B)\\
+&=Z^{-1}\mathrm{Tr}\left[e^{-\beta H}A(t-t^{'})B\right]\\
+&=\langle A(t-t^{'})B(0)\rangle
+\end{aligned}
+\end{equation}
+同理也可以证明
+\begin{equation}
+\langle B(t^{'}A(t))\rangle=\langle B(0)A(t-t^{'})\rangle
+\end{equation}
+于是双时格林函为
+\begin{equation}
+\begin{aligned}
+G_r(t,t^{'})&=-\frac{i}{\hbar}\theta(t-t^{'})\langle\left[A(t),B(t^{'})\right]_\pm\rangle\\
+&=-\frac{i}{\hbar}\langle\left[A(t-t^{'}),B(0)\right]_\pm\\
+&=G_r(t-t^{'})
+\end{aligned}
+\end{equation}
+这说明$G_r$只是时间差$(t-t^{'})$的函数。我们可以简单的令$t^{'}=0$，并令$t$代表时间差，则格林函数的定义就可以简化为
+\begin{equation}
+G_r(t)\equiv\langle\langle A(t);B\rangle\rangle_r=-\frac{i}{\hbar}\theta(t)\langle\left[A(t),B\right]_\pm\rangle\label{gf1}
+\end{equation}
+其中$B=B(0)$，而
+\begin{equation}
+A(t)=e^{\frac{i}{\hbar}H t}Ae^{-\frac{i}{\hbar }H t}
+\end{equation}
+$G_r(t)$的傅里叶变换为
+\begin{equation}
+G_r(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}d\omega G_r(\omega)e^{-i(\omega+i\eta)t}\qquad(\eta=+0)
+\end{equation}
+其逆变换为
+\begin{equation}
+G_r(\omega)=\int_{-\infty}^{\infty}dtG_r(t)e^{i(\omega+i\eta)t}\equiv\langle\langle A|B\rangle\rangle_{\omega+i\eta}\label{gr}
+\end{equation}
+在实际的运算中，更多讨论的是格林函数$G_r(\omega)$的性质。
+
+\qquad 对于有限温度，各种本征态$|n\rangle$均以概率$Z^{-1}e^{\beta E_n}$出现，此时公式(\ref{gf1})中的$\langle(\dots)\rangle$不再是基态平均$\langle n|(\dots)|n\rangle$，而应该取统计平均$Z^{-1}\sum_ne^{-\beta E_n}\langle n|(\dots)|n\rangle$，则可以将(\ref{gf1})表示为
+\begin{equation}
+-\frac{i}{\hbar}\theta(t)Z^{-1}\sum_{n,m}e^{-\beta E_n}\{\langle n|A|m\rangle\langle m|B|\rangle e^{i\omega_{nm}t}\pm\langle n|B|m\rangle\langle m|A|n\rangle e^{-i\omega_{nm}t}\}
+\end{equation}
+其中$\omega_{nm}\equiv(E_n-E_m)$，再对上式中的第一项做变量替换$n\leftrightarrow m$，即可以得到温度$T>0$时的$G_r(t)$为
+\begin{equation}
+G_r(t)=-\frac{i}{\hbar}\theta(t)Z^{-1}\sum_{n,m}e^{-\beta E_n}\langle n|B|m\rangle\langle m|A|n\rangle\times e^{-\frac{i}{\hbar}(E_n-E_m)t}(e^{\beta(E_n-E_m)}\pm 1)\label{gf2}
+\end{equation}
+通过对(\ref{gf2})做傅里叶变换，即可得到频率空间的表示
+\begin{equation}
+\begin{aligned}
+G_r(\omega)&=Z^{-1}\sum_{n,m}e^{-\beta E_n}\langle n|B|m\rangle\langle m|A|n\rangle\times\frac{e^{\beta(E_n-E_m)}\pm 1}{\hbar\omega-(E_n-E_m)+i\eta}\\
+&\equiv\langle\langle A|B\rangle\rangle_{\omega+i\eta}\label{gf3}
+\end{aligned}
+\end{equation}
+谱函数表示为
+\begin{equation}
+\begin{aligned}
+A(\omega)&\equiv-\frac{1}{\pi}\mathrm{Im}G_r(\omega)\\
+&=Z^{-1}\sum_{n,m}e^{-\beta E_n}\langle n|B|m\rangle\langle  m|A|n\rangle(e^{\beta\hbar\omega_{nm}}\pm 1)\delta\left[\hbar\omega-(E_n-E_m)\right]\\
+&=Z^{-1}\sum_{n,m}\langle n|B|m\rangle\langle  m|A|n\rangle(e^{-\beta E_m}\pm e^{-\beta E_n})\delta\left[\hbar\omega-(E_n-E_m)\right]
+\end{aligned}
+\end{equation}
+
+\qquad 推迟格林函数$\langle\langle A|B\rangle\rangle_{\omega+i\eta}$的极点在下半复平面，它只是上半复平面的解析函数，如果将(\ref{gr})中的$i\eta$换成$-i\eta$则可以定义一个在下半复平面的解析函数
+\begin{equation}
+\langle\langle A|B\rangle\rangle_{\omega-i\eta}\equiv Z^{-1}\sum_{n,m}e^{-\beta E_n}\langle n|B|m\rangle\langle m|A|n\rangle\times \frac{e^{\beta(E_n-E_m)}\pm 1}{\hbar\omega-(E_n-E_m)-i\eta}=G_a(\omega)\label{gf4}
+\end{equation}
+它的极点在上半平面，再对$G_a(\omega)$做傅里叶变换
+\begin{equation}
+\begin{aligned}
+G_a(t)&=\frac{1}{2\pi}\int_{-\infty}^{\infty}d\omega G_a(\omega)e^{-i(\omega-i\eta)t}\quad(\eta=+0)\\
+&=-\frac{i}{\hbar}\theta(-t)\langle\left[A(t),B\right]_\pm\rangle\equiv\langle\langle A(t);B\rangle\rangle_a\\
+&=\left\{
+\begin{array}{cc}
+0\qquad(t>0)\\
+\frac{i}{\hbar}\{\langle A(t)B\rangle\pm\langle BA(t)\rangle\}\qquad(t<0)
+\end{array}
+\right.
+\end{aligned}
+\end{equation}
+这里所求的的时间关联函数是逆时序传播的，代表超前格林函数，因此用$G_a(t)$与$G_a(\omega)$表示。
+
+\qquad 利用$G_r(\omega)$与$G_a(\omega)$可以定义包含上、下半复平面在内的全格林函数
+\begin{equation}
+\begin{aligned}
+G(\omega)&\equiv\langle\langle A|B\rangle\rangle_\omega\\
+&=Z^{-1}\sum_{n,m}e^{-\beta E_n}\langle n|B|m\rangle\langle m|A|n\rangle\frac{e^{\beta(E_n-E_m)}\pm 1}{\hbar\omega-(E_n-E_m)}\\
+&=\left\{
+\begin{array}{cc}
+G_r(\omega)\qquad(\textrm{上半复平面})\\
+G_a(\omega)\qquad(\textrm{下半复平面})
+\end{array}\right.\label{gf5}
+\end{aligned}
+\end{equation}
+这里$\omega$为复量。
+
+\qquad 利用公式(\ref{gf5})中定义的全格林函数$G(\omega)$，做傅里叶变换即可以得到响应的全时格林函数
+\begin{equation}
+\begin{aligned}
+G(t)&\equiv\frac{1}{2\pi}\int_{-\infty}^{\infty}d\omega e^{-\omega t}G(\omega)\equiv\langle\langle A(t);B\rangle\rangle\\
+&=\left\{
+\begin{array}{cc}
+-i\theta(t)\langle \left[A(t),B\right]_\pm\rangle=G_r(t)\\
+i\theta(-t)\langle \left[A(t),B\right]_\pm\rangle=G_a(t)\\
+\end{array}
+\right.\label{gf6}
+\end{aligned}
+\end{equation}
+这里$G(t>0)$代表推迟格林函数，$G(t<0)$则表示超前格林函数。$A(t)$为海森堡绘景中的算符
+\begin{equation}
+A(t)=e^{iHt}Ae^{-iHt}\label{hs1}
+\end{equation}
+这里选取自然单位制$\hbar=1$，从方程(\ref{gf5})出发，利用海森堡运动方程
+\begin{equation}
+i\frac{dA(t)}{dt}=\left[A(t),H\right]=A(t)H-HA(t)
+\end{equation}
+对公式(\ref{gf6})求时间的导数
+\begin{equation}
+\begin{aligned}
+i\frac{d}{dt}\langle\langle A(t);B\rangle\rangle&=\delta(t)\langle \left[A(t),B\right]_\pm\rangle\mp i\theta(\pm t)\langle\left[\left[A(t),H\right],B\right]_\pm\rangle\\
+&=\delta(t)\langle\left[A,B\right]_\pm+\langle\langle\left[A(t),H\right];B\rangle\rangle\label{gf7}
+\end{aligned}
+\end{equation}
+再利用
+\begin{equation}
+\begin{aligned}
+\delta(t)&=\frac{1}{2\pi}\int_{-\infty}^{\infty}d\omega e^{-i\omega t}\\
+i\dot{G}(t)&=\frac{1}{2\pi}\int_{-\infty}^{\infty}d\omega G(\omega)e^{-i\omega t}\\
+&=\frac{1}{2\pi}\int_{-\infty}^{\infty}d\omega \langle\langle A|B\rangle\rangle_\omega e^{-i\omega t}\label{gf8}
+\end{aligned}
+\end{equation}
+在(\ref{gf8})中出现的高阶格林函数也可以做傅里叶变换，用复平面内的$\omega$分量表示为
+\begin{equation}
+\langle\langle\left[A(t),H\right];B\rangle\rangle=\frac{1}{2\pi}\int_{-\infty}^{\infty}d\omega \langle\langle\left[A,H\right]|B\rangle\rangle_\omega e^{-i\omega t}\label{gf9}
+\end{equation}
+将(\ref{gf8}-\ref{gf9})代入(\ref{gf7})中，可以求得在复平面$\omega$上的格林函数运动方程为
+\begin{equation}
+\omega\langle\langle A|B\rangle\rangle_\omega=\langle\left[A,B\right]_\pm\rangle+\langle\langle\left[A,H\right]|B\rangle\rangle_\omega\label{gf10}
+\end{equation}
+上式(\ref{gf10})右边的的$\langle\langle\left[A,H\right]|B\rangle\rangle_\omega$是高阶格林函数，它所满足的运动方程仍然为(\ref{gf10})，
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
