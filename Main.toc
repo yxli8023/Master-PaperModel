@@ -11,7 +11,16 @@
 \contentsline {subsection}{\numberline {2.1}引言}{21}% 
 \contentsline {subsection}{\numberline {2.2}模型与哈密顿量}{21}% 
 \contentsline {subsection}{\numberline {2.3}运动方程}{26}% 
-\contentsline {section}{参考文献}{31}% 
-\contentsline {section}{致谢}{39}% 
-\contentsline {section}{作者攻读学位期间发表的学术论文目录}{39}% 
+\contentsline {section}{\numberline {3}层间耦合对谱函数及能带的影响}{32}% 
+\contentsline {subsection}{\numberline {3.1}谱函数计算结果及分析}{32}% 
+\contentsline {subsection}{\numberline {3.2}边界态计算结果及分析}{33}% 
+\contentsline {subsection}{\numberline {3.3}局域电子态密度结果及分析}{34}% 
+\contentsline {subsection}{\numberline {3.4}本章总结}{35}% 
+\contentsline {section}{\numberline {4}超导序参量计算}{36}% 
+\contentsline {subsection}{\numberline {4.1}动量空间序参量计算结果}{36}% 
+\contentsline {subsection}{\numberline {4.2}实空间序参量计算结果}{37}% 
+\contentsline {subsection}{\numberline {4.3}本章总结}{38}% 
+\contentsline {section}{参考文献}{39}% 
+\contentsline {section}{致谢}{47}% 
+\contentsline {section}{作者攻读学位期间发表的学术论文目录}{47}% 
 \contentsfinish 

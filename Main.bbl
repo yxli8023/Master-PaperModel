@@ -402,4 +402,13 @@ S.~Wu, V.~Fatemi, Q.~D. Gibson, K.~Watanabe, T.~Taniguchi, R.~J. Cava,
   {\path{doi:10.1126/science.aan6003}}.
 \newline\urlprefix\url{https://science.sciencemag.org/content/359/6371/76}
 
+\bibitem{re59}
+M.~R. Norman, C.~P{\'{e}}pin,
+  \href{https://doi.org/10.1088/0034-4885/66/10/r01}{The electronic nature of
+  high temperature cuprate superconductors}, Reports on Progress in Physics
+  66~(10) (2003) 1547--1610.
+\newblock \href {https://doi.org/10.1088/0034-4885/66/10/r01}
+  {\path{doi:10.1088/0034-4885/66/10/r01}}.
+\newline\urlprefix\url{https://doi.org/10.1088/0034-4885/66/10/r01}
+
 \end{thebibliography}

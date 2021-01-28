@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.15)  28 JAN 2021 12:04
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.15)  28 JAN 2021 22:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1018,11 +1018,11 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.06> not available
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 4.
 
-)
+[4])
 \tf@toc=\write3
 \openout3 = `Main.toc'.
 
- [4] (./section1.tex
+ [5] (./section1.tex
 File: pic/fig1.png Graphic file (type bmp)
 <pic/fig1.png>
 
@@ -1030,6 +1030,8 @@ File: pic/fig1.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1]
+Package marginnote Info: Using workaround for absolute page number on input lin
+e 19.
 File: pic/fig2.eps Graphic file (type eps)
 <pic/fig2.eps>
 
@@ -1058,17 +1060,17 @@ File: pic/fig6.jpg Graphic file (type bmp)
 File: pic/fig7.pdf Graphic file (type pdf)
 <use pic/fig7.pdf>
 
-Overfull \hbox (10.94104pt too wide) in paragraph at lines 80--81
+Overfull \hbox (10.94104pt too wide) in paragraph at lines 82--83
  [][] 
  []
 
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
 File: pic/fig8.eps Graphic file (type eps)
 <pic/fig8.eps>
 [8] [9]
@@ -1080,7 +1082,17 @@ File: pic/fig10.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10] [11] [12]
+[10] [11]
+Overfull \hbox (10.05264pt too wide) in paragraph at lines 180--181
+[]\TU/STSong(0)/m/n/12 这 里 的 动 能 系 数 $\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 (\OML/c
+mm/m/it/12 l\OT1/cmr/m/n/12 )$ \TU/STSong(0)/m/n/12 与 \TU/lmr/m/n/12 Dirac \TU/
+STSong(0)/m/n/12 质 量 项 $\OML/cmm/m/it/12 M\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 l\O
+T1/cmr/m/n/12 )$ \TU/STSong(0)/m/n/12 都 是 阶 跃 函 数：| $\OML/cmm/m/it/12 A\OT1/cmr
+/m/n/12 (\OML/cmm/m/it/12 l\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 A[]; A[]; A[]; 
+A[]$\TU/STSong(0)/m/n/12 ，|
+ []
+
+[12]
 File: pic/fig11.png Graphic file (type bmp)
 <pic/fig11.png>
 
@@ -1088,7 +1100,7 @@ File: pic/fig11.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (1.55504pt too wide) detected at line 197
+Overfull \hbox (1.55504pt too wide) detected at line 199
 \OML/cmm/m/it/12 H\OT1/cmr/m/n/12 ([]) = (\OML/cmm/m/it/12 m \OT1/cmr/m/n/12 + 
 []\OML/cmm/m/it/12 k[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 k[]\OT1/cmr/m/n/12 
 )\OML/cmm/m/it/12 ^^[[]^^\[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^U[]k[]^^[[]s[
@@ -1121,21 +1133,63 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: pic/fig15.pdf Graphic file (type pdf)
 <use pic/fig15.pdf>
 
-Overfull \hbox (9.26671pt too wide) in paragraph at lines 272--273
+Overfull \hbox (9.26671pt too wide) in paragraph at lines 275--276
  [][] 
  []
 
 [18] [19]) [20] (./section2.tex [21]
 File: pic/fig16.png Graphic file (type bmp)
 <pic/fig16.png>
- [22] [23] [24]
+ [22] [23]
+Overfull \hbox (0.805pt too wide) in paragraph at lines 136--138
+\TU/STSong(0)/m/n/12 在 一 个 圆 柱 体 结 构 且 沿 $\OML/cmm/m/it/12 y$ \TU/STSong(0)/m/n
+/12 方 向 取 开 边 界 条 件，|  此 时 整 个 哈 密 顿 量 可 以 被 写 为 $\OT1/cmr/m/n/12 12\OML/cmm/m/
+it/12 N[] \OMS/cmsy/m/n/12 ^^B
+ []
+
+[24]
 Missing character: There is no 在 in font [lmroman12-regular]:mapping=tex-text;!
- [25] [26] [27] [28]
-[29]
+ [25] [26] [27] [28] [29] [30]) [31] (./section3.tex
+File: pic/fig17.pdf Graphic file (type pdf)
+<use pic/fig17.pdf>
 
-LaTeX Warning: Reference `gf8,gf9' on page 30 undefined on input line 352.
+Overfull \hbox (10.43811pt too wide) in paragraph at lines 20--21
+ [][] 
+ []
 
-) [30] (./Main.bbl
+[32]
+Overfull \hbox (1.56737pt too wide) in paragraph at lines 25--27
+[]\TU/STSong(0)/m/n/12 在 图 \TU/lmr/m/n/12 3.1[]\TU/STSong(0)/m/n/12 中 有 一 个 有 趣
+ 的 结 果，|  我 们 发 现 $\OMS/cmsy/m/n/12 C[]$ \TU/STSong(0)/m/n/12 对 称 性 的 确 是 被 破 坏
+ 了，| $\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 k[]; k[]\OT1/cmr/m/n/
+12 ) \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 =
+ []
+
+File: pic/fig18.pdf Graphic file (type pdf)
+<use pic/fig18.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33]
+File: pic/fig19.pdf Graphic file (type pdf)
+<use pic/fig19.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34]) [35] (./section4.tex
+Overfull \hbox (5.67603pt too wide) in paragraph at lines 6--7
+[]\TU/STSong(0)/m/n/12 我 们 在 这 里 首 先 计 算 了 拓 扑 绝 缘 体 中 轨 道 $\OT1/cmr/m/n/12 1$ 
+\TU/STSong(0)/m/n/12 在 动 量 空 间 中 的 超 导 序 参 量 $\OT1/cmr/m/n/12 ^^A[]([])$\TU/STS
+ong(0)/m/n/12 ，|
+ []
+
+File: pic/fig20.pdf Graphic file (type pdf)
+<use pic/fig20.pdf>
+[36]
+File: pic/fig21.pdf Graphic file (type pdf)
+<use pic/fig21.pdf>
+ [37]) [38] (./Main.bbl
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1159,23 +1213,82 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             <->"FangSong/OT:script=hani;language=DFLT;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [31] [32] [33] [34] [35] [36] [37]) [38] (./thanks.tex)
-(./publish.tex [39]) [40] (./Main.aux)
+
+Underfull \hbox (badness 1910) in paragraph at lines 28--38
+[]\TU/lmr/m/n/12 M. König, S. Wiedmann, C. Brüne, A. Roth, H. Buhmann, L. W.
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 28--38
+\TU/lmr/m/n/12 Molenkamp, X.-L. Qi, S.-C. Zhang, Quantum spin hall insulator
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 28--38
+\TU/lmr/m/n/12 state in hgte quantum wells, Science 318 (5851) (2007) 766–770.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--38
+\TU/lmr/m/n/12 arXiv:https://science.sciencemag.org/content/318/5851/766.full.p
+df,
+ []
+
+[39] [40] [41] [42]
+Underfull \hbox (badness 10000) in paragraph at lines 258--262
+\TU/lmr/m/n/12 URL $[][][][] [] [] [] [][][][][][] [] [][][][] [] [][] [] [][] 
+[] [][] [] [][][][][][][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 264--269
+[]\TU/lmr/m/n/12 S. Wu, V. Fatemi, Q. D. Gibson, K. Watanabe, T. Taniguchi, R. 
+J.
+ []
+
+[43]
+Underfull \hbox (badness 1975) in paragraph at lines 271--275
+\TU/lmr/m/n/12 transition metal dichalcogenides, Science 346 (6215) (2014) 1344
+–1347.
+ []
+
+[44]
+Underfull \hbox (badness 4940) in paragraph at lines 341--348
+[]\TU/lmr/m/n/12 A. M. Black-Schaffer, A. V. Balatsky, Odd-frequency supercondu
+ct-
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 341--348
+\TU/lmr/m/n/12 ing pairing in topological insulators, Phys. Rev. B 86 (2012) 14
+4506.
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 359--366
+\TU/lmr/m/n/12 perconductivity in bilayer systems, Phys. Rev. B 90 (2014) 18451
+7.
+ []
+
+[45]
+Underfull \hbox (badness 1014) in paragraph at lines 396--404
+[]\TU/lmr/m/n/12 S. Wu, V. Fatemi, Q. D. Gibson, K. Watanabe, T. Taniguchi, R. 
+J.
+ []
+
+) [46] (./thanks.tex) (./publish.tex [47]) [48] (./Main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.22pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 23954 strings out of 492922
- 496840 string characters out of 6138841
- 589792 words of memory out of 5000000
- 27583 multiletter control sequences out of 15000+600000
+ 23989 strings out of 492922
+ 497366 string characters out of 6138841
+ 590886 words of memory out of 5000000
+ 27607 multiletter control sequences out of 15000+600000
  544992 words of font info for 127 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 54i,15n,68p,837b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,15n,68p,837b,577s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.pdf (44 pages).
+Output written on Main.pdf (53 pages).
