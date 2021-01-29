@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.15)  29 JAN 2021 11:59
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.15)  29 JAN 2021 21:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1223,12 +1223,12 @@ Overfull \hbox (97.63275pt too wide) detected at line 173
 
 [44]) [45] (./section6.tex [46]) [47] (./Main.bbl [48] [49] [50] [51] [52])
 [53] (./thanks.tex) (./publish.tex [54])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
  [55]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
  (./Main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 69.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 72.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 573CBAABEFDF11E351EC65DB816CEE15.
 
@@ -1236,15 +1236,15 @@ Package rerunfilecheck Info: File `Main.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.22pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 26799 strings out of 492922
- 535835 string characters out of 6138841
+ 26798 strings out of 492922
+ 535826 string characters out of 6138841
  622807 words of memory out of 5000000
- 30460 multiletter control sequences out of 15000+600000
+ 30459 multiletter control sequences out of 15000+600000
  545320 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 54i,18n,68p,1040b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,18n,68p,1040b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Main.pdf (63 pages).
