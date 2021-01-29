@@ -1,0 +1,22 @@
+\contentsline {figure}{\numberline {1.1}{\ignorespaces (a)整数量子霍尔效应示意图。(b)整数量子霍尔效应能带示意图。(c)整数量子自旋霍尔效应示意图。(d)整数量子自旋霍尔效应能带示意图。}}{2}{figure.1.1}% 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces A,HgTe与CdTe在布里渊区$\Gamma $点附近的体能带结构。B，CdTe/HgTe量子阱结构中正常态$d<d_c$与$d>d_c$的能级结构示意图。图片来源于文献\cite {re3}}}{3}{figure.1.2}% 
+\contentsline {figure}{\numberline {1.3}{\ignorespaces HgTe/CdTe量子阱霍尔电阻随HgTe厚度的变化。图片来源于文献\cite {re5}}}{4}{figure.1.3}% 
+\contentsline {figure}{\numberline {1.4}{\ignorespaces (a)2D手性超导体与量子霍尔态的比较。(b)2D TRS拓扑超导体与量子自旋霍尔绝缘体比较 。图片来源于文献\cite {re11}}}{5}{figure.1.4}% 
+\contentsline {figure}{\numberline {1.5}{\ignorespaces (a)STIS异质结；(b)STIS线性结的能带图；(c)超导三相结；(d)三线结相图。}}{6}{figure.1.5}% 
+\contentsline {figure}{\numberline {1.6}{\ignorespaces 拓扑物态的边界态示意图；$n=1$的行对应传统的拓扑物态, 其具有比系统维度低一维的无能隙边界态; $n\geq 2$的行对应高阶拓扑物态, 其具有比维度低n维的无能隙边界态}}{7}{figure.1.6}% 
+\contentsline {figure}{\numberline {1.7}{\ignorespaces 手性高阶拓扑绝缘体；(a)哈密顿量(\ref {hoti})的相图，(b)一个元胞内满足$\mathaccentV {hat}45E{C}_4^z\mathcal {T}$的非共线反铁磁，(c)存在手性棱态(红色)的哈密顿量(\ref {hoti})的能谱图}}{8}{figure.1.7}% 
+\contentsline {figure}{\numberline {1.8}{\ignorespaces 示意图展示；一个2D拓扑绝缘体长在$d$-波或者$s_\pm $-波的高温超导体上，零能马约拉纳Kramers对(MKP)将会出现在2D拓扑绝缘体的角落。}}{9}{figure.1.8}% 
+\contentsline {figure}{\numberline {1.9}{\ignorespaces （a）圆柱体结构能谱图；（b）四个MKP的波函数分布}}{10}{figure.1.9}% 
+\contentsline {figure}{\numberline {1.10}{\ignorespaces BZ中$s_\pm $-波示意图，在靠近中心区域配对是负的，在BZ边界区域配对是正的。}}{14}{figure.1.10}% 
+\contentsline {figure}{\numberline {1.11}{\ignorespaces (a)能带反转环与超导配对节线环，虚线代表着$\mu =0.3$时的费米面；(b-c)零能态波函数分布，(b)中化学势$\mu =0$，(c)中化学势$\mu =0.3$；(d)($m_0,\Delta _0/\Delta _1,\mu $)相图，固定$\Delta _1=0.4$，在表面包括的范围内都可以存在MKP。}}{15}{figure.1.11}% 
+\contentsline {figure}{\numberline {1.12}{\ignorespaces (a)2D拓扑绝缘体沿($0\mathaccentV {bar}416{1}$)方向圆柱体结构能带图，此时边界态出现在$k_x=\pi $；(b)能带(a)在加入$s_\pm $配对后BdG哈密顿量的能谱图；(c-d)和(a-b)相似，此时边界态出现在($\mathaccentV {bar}416{1}0$)这个方向的$k_y=0$处}}{17}{figure.1.12}% 
+\contentsline {figure}{\numberline {1.13}{\ignorespaces 量子自旋霍尔效应与$s$-波超导构成异质结，并在面内存在一个各项异性的磁场，马约拉纳零能模出现在系统的四个拐角处。}}{18}{figure.1.13}% 
+\contentsline {figure}{\numberline {1.14}{\ignorespaces (a)拓扑绝缘体/高温超导体异质结。(b)Bi$_2$Se$_3$与BSCCO的相对晶格取向，沿着超导配对节线方向，体系波坏了$90^\circ $旋转和反射对称。(c)拓扑绝缘体Bi$_2$Se$_3$的能带结构}}{19}{figure.1.14}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 圆柱形结构示意图}}{22}{figure.2.1}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 2D拓扑绝缘体层谱函数强度分布。(a)$E=-0.1$,(b)$E=-0.3$,(c)$E=-0.5$}}{32}{figure.3.1}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 考虑圆柱形结构的数值计算结果。(a)沿$x$方向开边界时哈密顿量本征值,(b)$i_x=1$边界处的谱函数,(c)$i_x=N_x$边界处的谱函数,(d)沿$y$方向开边界时哈密顿量本征值,(b)$i_y=1$边界处的谱函数,(c)$i_y=N_y$边界处的谱函数}}{34}{figure.3.2}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces (a)2D拓扑绝缘体生长在$d$-波高温超导体上，(b)实空间哈密顿量本征值(c)2D拓扑绝缘体实空间中零能态电子局域态密度}}{35}{figure.3.3}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces (a)轨道1的超导序参量(b)轨道1单重态通道的序参量(c)轨道1三重态通道的序参量}}{36}{figure.4.1}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces (a)2D拓扑绝缘体轨道1实空间中的$d$-波序参量(b)实空间四条边界上的$d$-波序参量分布}}{37}{figure.4.2}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces (a)反常格林函数计算轨道1的超导序参量(b)轨道1单重态通道的序参量(c)轨道1三重态通道的序参量}}{41}{figure.5.1}% 
+\contentsfinish 

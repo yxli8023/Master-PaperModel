@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.15)  29 JAN 2021 11:29
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.15)  29 JAN 2021 11:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -595,227 +595,163 @@ File: ppxetex.def 2017/10/31 v0.5l Pdfpages driver for XeTeX (AM)
 \c@AM@survey=\count291
 \AM@templatesizebox=\box60
 )
-(d:/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip18
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
 (d:/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(d:/texlive/texmf-dist/tex/latex/marginnote/marginnote.sty
-Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
-\c@mn@abspage=\count292
-)
-(d:/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip68
-\subfigcapskip=\skip69
-\subfigcaptopadj=\dimen199
-\subfigbottomskip=\skip70
-\subfigcapmargin=\dimen256
-\subfiglabelskip=\skip71
-\c@subfigure=\count293
-\c@lofdepth=\count294
-\c@subtable=\count295
-\c@lotdepth=\count296
-
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-(d:/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip72
-\subfig@bottom=\skip73
-)
-(d:/texlive/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-
-(d:/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
-
-(d:/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen257
-\captionmargin@=\dimen258
-\captionwidth=\dimen259
-\caption@tempdima=\dimen260
-\caption@indent=\dimen261
-\caption@parindent=\dimen262
-\caption@hangindent=\dimen263
-)
-\c@caption@flags=\count297
-\c@ContinuedFloat=\count298
-Package caption Info: float package is loaded.
-Package caption Info: subfigure package is loaded.
-)
-\c@KVtest=\count299
-\sf@farskip=\skip74
-\sf@captopadj=\dimen264
-\sf@capskip=\skip75
-\sf@nearskip=\skip76
-\sf@top=\skip77
-\sf@bottom=\skip78
-)
-(d:/texlive/texmf-dist/tex/latex/diagbox/diagbox.sty
-Package: diagbox 2016/12/28 v2.2 Making table heads with diagonal lines
-
-(d:/texlive/texmf-dist/tex/latex/pict2e/pict2e.sty
-Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
-
-(d:/texlive/texmf-dist/tex/latex/pict2e/pict2e.cfg
-File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
-)
-Package pict2e Info: Driver file: xetex.def on input line 119.
-Package pict2e Info: Driver file for pict2e: p2e-xetex.def on input line 121.
-
-(d:/texlive/texmf-dist/tex/latex/pict2e/p2e-xetex.def
-File: p2e-xetex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
-)
-\pIIe@GRAPH=\toks26
-\@arclen=\dimen265
-\@arcrad=\dimen266
-\@tempdimd=\dimen267
-)
-(d:/texlive/texmf-dist/tex/latex/fp/fp.sty
-Package: fp 1995/04/02
-
-`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(d:/texlive/texmf-dist/tex/latex/fp/defpattern.sty
-Package: defpattern 1994/10/12
-\actioncount=\count300
-)
-(d:/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
-Package: fp-basic 1996/05/13
-\FP@xs=\count301
-\FP@xia=\count302
-\FP@xib=\count303
-\FP@xfa=\count304
-\FP@xfb=\count305
-\FP@rega=\count306
-\FP@regb=\count307
-\FP@regs=\count308
-\FP@times=\count309
-)
-(d:/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
-Package: fp-addons 1995/03/15
-)
-(d:/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
-Package: fp-snap 1995/04/05
-)
-(d:/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
-Package: fp-exp 1995/04/03
-)
-(d:/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
-Package: fp-trigo 1995/04/14
-)
-(d:/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
-Package: fp-pas 1994/08/29
-)
-(d:/texlive/texmf-dist/tex/latex/fp/fp-random.sty
-Package: fp-random 1995/02/23
-\FPseed=\count310
-)
-(d:/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
-Package: fp-eqn 1995/04/03
-)
-(d:/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
-Package: fp-upn 1996/10/21
-)
-(d:/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
-Package: fp-eval 1995/04/03
-))
-(d:/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen268
-\ar@mcellbox=\box61
-\extrarowheight=\dimen269
-\NC@list=\toks27
-\extratabsurround=\skip79
-\backup@length=\skip80
-\ar@cellbox=\box62
-)
-\diagbox@boxa=\box63
-\diagbox@boxb=\box64
-\diagbox@boxm=\box65
-\diagbox@wd=\dimen270
-\diagbox@ht=\dimen271
-\diagbox@insepl=\dimen272
-\diagbox@insepr=\dimen273
-\diagbox@outsepl=\dimen274
-\diagbox@outsepr=\dimen275
-)
-(d:/texlive/texmf-dist/tex/latex/appendix/appendix.sty
-Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count311
-\c@@ppsavesec=\count312
-\c@@ppsaveapp=\count313
 )
 (d:/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip81
-\f@nch@O@elh=\skip82
-\f@nch@O@erh=\skip83
-\f@nch@O@olh=\skip84
-\f@nch@O@orh=\skip85
-\f@nch@O@elf=\skip86
-\f@nch@O@erf=\skip87
-\f@nch@O@olf=\skip88
-\f@nch@O@orf=\skip89
+\f@nch@headwidth=\skip68
+\f@nch@O@elh=\skip69
+\f@nch@O@erh=\skip70
+\f@nch@O@olh=\skip71
+\f@nch@O@orh=\skip72
+\f@nch@O@elf=\skip73
+\f@nch@O@erf=\skip74
+\f@nch@O@olf=\skip75
+\f@nch@O@orf=\skip76
 )
-(d:/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count314
-\lst@gtempboxa=\box66
-\lst@token=\toks28
-\lst@length=\count315
-\lst@currlwidth=\dimen276
-\lst@column=\count316
-\lst@pos=\count317
-\lst@lostspace=\dimen277
-\lst@width=\dimen278
-\lst@newlines=\count318
-\lst@lineno=\count319
-\lst@maxwidth=\dimen279
-
-(d:/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
-\c@lstnumber=\count320
-\lst@skipnumbers=\count321
-\lst@framebox=\box67
-)
-(d:/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2019/02/27 1.8b listings configuration
-))
-Package: listings 2019/02/27 1.8b (Carsten Heinz)
-
 (d:/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box68
-\beforetitleunit=\skip90
-\aftertitleunit=\skip91
-\ttl@plus=\dimen280
-\ttl@minus=\dimen281
-\ttl@toksa=\toks29
-\titlewidth=\dimen282
-\titlewidthlast=\dimen283
-\titlewidthfirst=\dimen284
+\ttl@box=\box61
+\beforetitleunit=\skip77
+\aftertitleunit=\skip78
+\ttl@plus=\dimen199
+\ttl@minus=\dimen256
+\ttl@toksa=\toks26
+\titlewidth=\dimen257
+\titlewidthlast=\dimen258
+\titlewidthfirst=\dimen259
 )
 (d:/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
-\ttl@leftsep=\dimen285
+\ttl@leftsep=\dimen260
 )
-(d:/texlive/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip92
-\bibsep=\skip93
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count322
-)) (./setting.tex)
-(d:/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
-Package: xeCJK-listings 2019/04/07 v3.7.2 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count323
-\l__xeCJK_listings_flag_int=\count324
-) (./Main.aux)
+(d:/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(d:/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(d:/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(d:/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(d:/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen261
+\Hy@linkcounter=\count292
+\Hy@pagecounter=\count293
+
+(d:/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count294
+
+(d:/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4393.
+
+(d:/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4393.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count295
+
+(d:/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen262
+\Fld@menulength=\count296
+\Field@Width=\dimen263
+\Fld@charsize=\dimen264
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring ON on input line 6398.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count297
+\c@Item=\count298
+\c@Hfootnote=\count299
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(d:/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2018/11/30 v6.88e Hyperref driver for XeTeX
+
+(d:/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box62
+\c@Hy@AnnotLevel=\count300
+\HyField@AnnotCount=\count301
+\Fld@listcount=\count302
+\c@bookmark@seq@number=\count303
+
+(d:/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip79
+)
+(d:/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)) (./setting.tex) (./Main.aux)
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -833,6 +769,10 @@ LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 
 ABD: EverySelectfont initializing macros
@@ -928,7 +868,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box69
+\AtBeginShipoutBox=\box63
 (d:/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
@@ -938,11 +878,24 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
 
 )
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count325
+Package hyperref Info: Link coloring ON on input line 5.
+
+(d:/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(d:/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count304
+)
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+LaTeX Info: Redefining \nameref on input line 5.
+ (./Main.out)
+(./Main.out)
+\@outlinefile=\write3
+\openout3 = `Main.out'.
+
 
 Package fontspec Info: Could not resolve font "STSong/BI" (it probably doesn't
 (fontspec)             exist).
@@ -1015,7 +968,13 @@ Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
 (fontspec)             <->"SimHei/OT:script=hani;language=DFLT;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [1]
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 12.0pt
+(hyperref)                replaced by space on input line 16.
+
+[1]
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15.05624> not available
 (Font)              size <14.4> substituted on input line 26.
@@ -1030,13 +989,31 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 4.
 
 [3])
-\tf@toc=\write3
-\openout3 = `Main.toc'.
+\tf@toc=\write4
+\openout4 = `Main.toc'.
 
- [4] (./section1.tex
+ [4] (./Main.lof [5]
+Overfull \hbox (1.44164pt too wide) in paragraph at lines 16--16
+ [][] [][][]\TU/lmr/m/n/12 2D \TU/STSong(0)/m/n/12 拓 扑 绝 缘 体 层 谱 函 数 强 度 分 布。| 
+\TU/lmr/m/n/12 (a)$\OML/cmm/m/it/12 E \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\OT
+1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1$\TU/lmr/m/n/12 ,(b)$\OML/cmm/
+m/it/12 E \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/
+12 :\OT1/cmr/m/n/12 3$\TU/lmr/m/n/12 ,(c)$\OML/cmm/m/it/12 E \OT1/cmr/m/n/12 = 
+
+ []
+
+)
+\tf@lof=\write5
+\openout5 = `Main.lof'.
+
+ [6] (./section1.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 12.0pt
+(hyperref)                replaced by space on input line 1.
+
 File: pic/fig1.png Graphic file (type bmp)
 <pic/fig1.png>
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1073,6 +1050,7 @@ Overfull \hbox (10.94104pt too wide) in paragraph at lines 82--83
  [][] 
  []
 
+[8]
 Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
@@ -1082,16 +1060,12 @@ Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
 File: pic/fig8.eps Graphic file (type eps)
 <pic/fig8.eps>
-[8] [9]
+ [9]
 File: pic/fig9.eps Graphic file (type eps)
 <pic/fig9.eps>
 File: pic/fig10.eps Graphic file (type eps)
 <pic/fig10.eps>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10] [11]
+ [10] [11]
 Overfull \hbox (10.05264pt too wide) in paragraph at lines 180--181
 []\TU/STSong(0)/m/n/12 这 里 的 动 能 系 数 $\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 (\OML/c
 mm/m/it/12 l\OT1/cmr/m/n/12 )$ \TU/STSong(0)/m/n/12 与 \TU/lmr/m/n/12 Dirac \TU/
@@ -1110,11 +1084,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Overfull \hbox (1.55504pt too wide) detected at line 199
-\OML/cmm/m/it/12 H\OT1/cmr/m/n/12 ([]) = (\OML/cmm/m/it/12 m \OT1/cmr/m/n/12 + 
-[]\OML/cmm/m/it/12 k[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 k[]\OT1/cmr/m/n/12 
-)\OML/cmm/m/it/12 ^^[[]^^\[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^U[]k[]^^[[]s[
-] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^U[]k[]^^[[]^^\[] \OT1/cmr/m/n/12 + [] \O
-ML/cmm/m/it/12 s[]^^\[]
+[]\OML/cmm/m/it/12 H\OT1/cmr/m/n/12 ([]) = (\OML/cmm/m/it/12 m \OT1/cmr/m/n/12 
++ []\OML/cmm/m/it/12 k[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 k[]\OT1/cmr/m/n/1
+2 )\OML/cmm/m/it/12 ^^[[]^^\[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^U[]k[]^^[[]
+s[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^U[]k[]^^[[]^^\[] \OT1/cmr/m/n/12 + [] 
+\OML/cmm/m/it/12 s[]^^\[]
  []
 
 [13] [14]
@@ -1146,7 +1120,13 @@ Overfull \hbox (9.26671pt too wide) in paragraph at lines 275--276
  [][] 
  []
 
-[18] [19]) [20] (./section2.tex [21]
+[18] [19]) [20] (./section2.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 12.0pt
+(hyperref)                replaced by space on input line 1.
+
+[21]
 File: pic/fig16.png Graphic file (type bmp)
 <pic/fig16.png>
  [22] [23]
@@ -1167,15 +1147,9 @@ Overfull \hbox (10.43811pt too wide) in paragraph at lines 20--21
  []
 
 [32]
-Overfull \hbox (1.56737pt too wide) in paragraph at lines 25--27
-[]\TU/STSong(0)/m/n/12 在 图 \TU/lmr/m/n/12 3.1[]\TU/STSong(0)/m/n/12 中 有 一 个 有 趣
- 的 结 果，|  我 们 发 现 $\OMS/cmsy/m/n/12 C[]$ \TU/STSong(0)/m/n/12 对 称 性 的 确 是 被 破 坏
- 了，| $\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 k[]; k[]\OT1/cmr/m/n/
-12 ) \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 =
- []
-
 File: pic/fig18.pdf Graphic file (type pdf)
 <use pic/fig18.pdf>
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1224,72 +1198,53 @@ File: pic/fig22.pdf Graphic file (type pdf)
 <use pic/fig22.pdf>
  [41] [42]
 Overfull \hbox (184.26813pt too wide) detected at line 143
-\OML/cmm/m/it/12 F[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@[]
+[]\OML/cmm/m/it/12 F[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@[]
  []
 
 
 Overfull \hbox (191.64673pt too wide) detected at line 147
-\OML/cmm/m/it/12 F[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@[]
+[]\OML/cmm/m/it/12 F[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@[]
  []
 
 [43]
 Overfull \hbox (40.66524pt too wide) detected at line 155
-[][]
+[][][]
  []
 
 
 Overfull \hbox (97.63275pt too wide) detected at line 167
-[][]
+[][][]
  []
 
 
 Overfull \hbox (97.63275pt too wide) detected at line 173
-[][]
+[][][]
  []
 
-[44]) [45] (./section6.tex [46]) [47] (./Main.bbl [48] [49] [50] [51] [52]
+[44]) [45] (./section6.tex [46]) [47] (./Main.bbl [48] [49] [50] [51] [52])
+[53] (./thanks.tex) (./publish.tex [54])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
+ [55]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
+ (./Main.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 69.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: 573CBAABEFDF11E351EC65DB816CEE15.
 
-Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "FangSong/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "FangSong/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
-(fontspec)             with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"FangSong/OT:script=hani;language=DFLT;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 266--274
-[]\TU/lmr/m/n/12 S. Wu, V. Fatemi, Q. D. Gibson, K. Watanabe, T. Taniguchi, R. 
-J.
- []
-
-) [53] (./thanks.tex) (./publish.tex [54]) [55] (./Main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.22pt have occurred.
 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
- 24021 strings out of 492922
- 497758 string characters out of 6138841
- 591049 words of memory out of 5000000
- 27629 multiletter control sequences out of 15000+600000
- 544992 words of font info for 127 fonts, out of 8000000 for 9000
+ 26799 strings out of 492922
+ 535835 string characters out of 6138841
+ 622807 words of memory out of 5000000
+ 30460 multiletter control sequences out of 15000+600000
+ 545320 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 54i,18n,68p,1040b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,18n,68p,1040b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.pdf (61 pages).
+Output written on Main.pdf (63 pages).

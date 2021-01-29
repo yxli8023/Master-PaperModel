@@ -7,7 +7,7 @@
 \renewcommand{\contentsname}{目$\qquad$录}           % 对Contents进行汉化为目录
 \renewcommand\listfigurename{插\ 图\ 目\ 录} % 对List of Figures进行汉化为插图目录
 \renewcommand\listtablename{表\ 格\ 目\ 录}  % 对List of Tables进行汉化表格目录
-\setcounter{tocdepth}{2}%目录章节深度设置
+\setcounter{tocdepth}{2}%目录章节深度设置(2表示只显示到\subsection)
 
 %\setlength{\parskip}{0.5\baselineskip}% 设置空行换行后，上下两段文字间距
 %\titlespacing*{section}{0pt}{9pt}{0pt}% 设置标题与段落间距
@@ -30,7 +30,7 @@
 % 设置页脚：在每页的右下脚以斜体显示书名
 %\fancyfoot[RO,RE]{\it \text{右下角内容}} %右下角增加\text{}中的内容
 \renewcommand{\headrulewidth}{1.5pt} % 页眉与正文之间的水平线粗细
-\renewcommand{\footrulewidth}{1.5pt}
+\renewcommand{\footrulewidth}{1.5pt} % 页脚也正文之间的水平黑线
 %\renewcommand{\footrulewidth}{0pt}
 %\renewcommand\headrule{\hrule width \hsize height 2pt \kern 2pt \hrule width \hsize height 0.4pt}%页眉上双线
 }
@@ -38,9 +38,10 @@
 \renewcommand{\songti}{\CJKfontspec{STSong}}% 华文宋体
 
 %===============================  引用上标设置 ===========
-%\makeatletter
-%\def\@cite#1#2{\textsuperscript{[{#1\if@tempswa , #2\fi}]}}
-%\makeatother
-\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}} %之后的文献上标引用使用\upcite{}
+\makeatletter
+\def\@cite#1#2{\textsuperscript{[{#1\if@tempswa , #2\fi}]}}
+\makeatother
+%\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}} %之后的文献上标引用使用\upcite{}
+%\newcommand{\upcite}[1]{$^\cite{#1}$} %之后的文献上标引用使用\upcite{}
 %============= 设置自己的简短命令 ============================
 

@@ -13,7 +13,7 @@
 %毕业论文封面
 \includepdf{cover/cover.pdf}
 
-%======================页码设置
+%======================页码设置=====================
 % empty - 没有页眉和页脚
 % plain - 没有页眉，页脚包含一个居中的页码
 % headings - 没有页脚，页眉包含章/节或者字节的名字和页码
@@ -33,14 +33,13 @@
 
 %\newpage%另起一页
 %\listoftables%增加表格目录
-
-%\newpage
-%\listoffigures%增加图片目录
 %=================摘要==================
 \newpage
 \input{abstract}
 \newpage
 \tableofcontents%增加章节目录
+\newpage
+\listoffigures%增加图片目录
 %================正文=======================
 \newpage
 \input{section1}
@@ -54,6 +53,7 @@
 \input{section5}
 \newpage
 \input{section6}
+
 %=================================================
 \newpage
 \addcontentsline{toc}{section}{参考文献} %向目录中添加条目，以章的名义

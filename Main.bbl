@@ -5,16 +5,6 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
-\bibitem{re1}
-K.~v. Klitzing, G.~Dorda, M.~Pepper, New method for high-accuracy determination
-  of the fine-structure constant based on quantized hall resistance
-  [\textrm{J}], Phys. Rev. Lett. 45 (1980) 494--497.
-
-\bibitem{re2}
-D.~J. Thouless, M.~Kohmoto, M.~P. Nightingale, M.~den Nijs, Quantized hall
-  conductance in a two-dimensional periodic potential [\textrm{J}], Phys. Rev.
-  Lett. 49 (1982) 405--408.
-
 \bibitem{re3}
 F.~D.~M. Haldane, Model for a quantum hall effect without landau levels:
   Condensed-matter realization of the "parity anomaly" [\textrm{J}], Phys. Rev.
@@ -24,6 +14,20 @@ F.~D.~M. Haldane, Model for a quantum hall effect without landau levels:
 M.~K{\"o}nig, S.~Wiedmann, C.~Br{\"u}ne, A.~Roth, H.~Buhmann, L.~W. Molenkamp,
   X.-L. Qi, S.-C. Zhang, Quantum spin hall insulator state in hgte quantum
   wells [\textrm{J}], Science 318~(5851) (2007) 766--770.
+
+\bibitem{re11}
+X.-L. Qi, S.-C. Zhang, Topological insulators and superconductors [\textrm{J}],
+  Reviews of Modern Physics 83~(4) (2011) 1057--1110.
+
+\bibitem{re1}
+K.~v. Klitzing, G.~Dorda, M.~Pepper, New method for high-accuracy determination
+  of the fine-structure constant based on quantized hall resistance
+  [\textrm{J}], Phys. Rev. Lett. 45 (1980) 494--497.
+
+\bibitem{re2}
+D.~J. Thouless, M.~Kohmoto, M.~P. Nightingale, M.~den Nijs, Quantized hall
+  conductance in a two-dimensional periodic potential [\textrm{J}], Phys. Rev.
+  Lett. 49 (1982) 405--408.
 
 \bibitem{re4}
 B.~A. Bernevig, T.~L. Hughes, S.-C. Zhang, Quantum spin hall effect and
@@ -44,10 +48,6 @@ J.~Bardeen, L.~N. Cooper, J.~R. Schrieffer, Microscopic theory of
 P.~A. Lee, N.~Nagaosa, X.-G. Wen, Doping a mott insulator: Physics of
   high-temperature superconductivity [\textrm{J}], Reviews of Modern Physics
   78~(1) (2006) 17--85.
-
-\bibitem{re11}
-X.-L. Qi, S.-C. Zhang, Topological insulators and superconductors [\textrm{J}],
-  Reviews of Modern Physics 83~(4) (2011) 1057--1110.
 
 \bibitem{re12}
 A.~Kitaev, Periodic table for topological insulators and superconductors
@@ -260,21 +260,11 @@ C.~Reeg, D.~Loss, J.~Klinovaja, Metallization of a rashba wire by a
 \bibitem{re56}
 B.~A. Bernevig, T.~L. Hughes, S.-C. Zhang, Quantum spin hall effect and
   topological phase transition in \textrm{HgTe} quantum wells [\textrm{J}]
-  314~(5806) (2006) 1757--1761.
+  314~(5806) (2006 journal = {Science}) 1757--1761.
 
 \bibitem{re57}
 S.~Wu, V.~Fatemi, Q.~D. Gibson, K.~Watanabe, T.~Taniguchi, R.~J. Cava,
-  P.~Jarillo-Herrero,
-  \href{https://science.sciencemag.org/content/359/6371/76}{Observation of the
-  quantum spin hall effect up to 100 kelvin in a monolayer crystal}, Science
-  359~(6371) (2018) 76--79.
-\newblock \href {https://doi.org/10.1126/science.aan6003}
-  {\path{doi:10.1126/science.aan6003}}.
-\newline\urlprefix\url{https://science.sciencemag.org/content/359/6371/76}
-
-\bibitem{re59}
-M.~R. Norman, C.~P{\'{e}}pin, The electronic nature of high temperature cuprate
-  superconductors [\textrm{J}], Reports on Progress in Physics 66~(10) (2003)
-  1547--1610.
+  P.~Jarillo-Herrero, Observation of the quantum spin hall effect up to 100
+  kelvin in a monolayer crystal, Science 359~(6371) (2018) 76--79.
 
 \end{thebibliography}
