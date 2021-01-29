@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.15)  28 JAN 2021 22:07
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.15)  29 JAN 2021 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -966,6 +966,14 @@ Package fontspec Info: Font family 'STSong(0)' created for font 'STSong' with
 (fontspec)             <->"STSong/OT:script=hani;language=DFLT;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
+File: cover/cover.pdf Graphic file (type pdf)
+<use cover/cover.pdf>
+File: cover/cover.pdf Graphic file (type pdf)
+<use cover/cover.pdf>
+File: cover/cover.pdf Graphic file (type pdf)
+<use cover/cover.pdf, page 1>
+File: cover/cover.pdf Graphic file (type pdf)
+<use cover/cover.pdf, page 1>
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -976,7 +984,14 @@ This may cause the page layout to be inconsistent, however.
 [1
 
 
-] (./abstract.tex
+]
+File: cover/cover.pdf Graphic file (type pdf)
+<use cover/cover.pdf, page 1>
+File: cover/cover.pdf Graphic file (type pdf)
+<use cover/cover.pdf, page 1>
+File: cover/cover.pdf Graphic file (type pdf)
+<use cover/cover.pdf, page 1>
+ [2] (./abstract.tex
 
 Package fontspec Info: Could not resolve font "SimHei/BI" (it probably doesn't
 (fontspec)             exist).
@@ -1000,16 +1015,12 @@ Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
 (fontspec)             <->"SimHei/OT:script=hani;language=DFLT;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [2]
+ [1]
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15.05624> not available
 (Font)              size <14.4> substituted on input line 26.
 
-) [3] (./Main.toc
-Overfull \hbox (1.25916pt too wide) detected at line 2
- \TU/lmr/bx/n/15.05624 III
- []
-
+) [2] (./Main.toc
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.06> not available
 (Font)              size <17.28> substituted on input line 4.
@@ -1018,11 +1029,11 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.06> not available
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 4.
 
-[4])
+[3])
 \tf@toc=\write3
 \openout3 = `Main.toc'.
 
- [5] (./section1.tex
+ [4] (./section1.tex
 File: pic/fig1.png Graphic file (type bmp)
 <pic/fig1.png>
 
@@ -1030,8 +1041,6 @@ File: pic/fig1.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1]
-Package marginnote Info: Using workaround for absolute page number on input lin
-e 19.
 File: pic/fig2.eps Graphic file (type eps)
 <pic/fig2.eps>
 
@@ -1189,7 +1198,56 @@ File: pic/fig20.pdf Graphic file (type pdf)
 [36]
 File: pic/fig21.pdf Graphic file (type pdf)
 <use pic/fig21.pdf>
- [37]) [38] (./Main.bbl
+ [37]) [38] (./section5.tex
+Overfull \hbox (20.10918pt too wide) in paragraph at lines 13--20
+\TU/STSong(0)/m/n/12 为 了 求 解 反 常 格 林 函 数，|  先 做 一 些 简 化 的 记 号 $\OML/cmm/m/it/12
+ x[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 hh\OML/cmm/m/it/12 c[]\OMS/cmsy/m/n/12 
+j\OML/cmm/m/it/12 c[]\OMS/cmsy/m/n/12 ii[]$\TU/lmr/m/n/12 , $\OML/cmm/m/it/12 x
+[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 hh\OML/cmm/m/it/12 c[]\OMS/cmsy/m/n/12 j\
+OML/cmm/m/it/12 c[]\OMS/cmsy/m/n/12 ii[]$\TU/lmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (10.96968pt too wide) in paragraph at lines 13--20
+\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 hh\OML/cmm/m/it/12 d[]\
+OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 c[]\OMS/cmsy/m/n/12 ii[]$\TU/lmr/m/n/12 , $\O
+ML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 hh\OML/cmm/m/it/12 d[]\OM
+S/cmsy/m/n/12 j\OML/cmm/m/it/12 c[]\OMS/cmsy/m/n/12 ii[]$\TU/lmr/m/n/12 , $\OML
+/cmm/m/it/12 x[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 hh\OML/cmm/m/it/12 c[]\OMS/
+cmsy/m/n/12 j\OML/cmm/m/it/12 c[]\OMS/cmsy/m/n/12 ii[]$\TU/lmr/m/n/12 , $\OML/c
+mm/m/it/12 x[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 hh\OML/cmm/m/it/12 c[]\OMS/cm
+sy/m/n/12 j\OML/cmm/m/it/12 c[]\OMS/cmsy/m/n/12 ii[]$\TU/STSong(0)/m/n/12 。|
+ []
+
+[39] [40]
+File: pic/fig22.pdf Graphic file (type pdf)
+<use pic/fig22.pdf>
+ [41] [42]
+Overfull \hbox (184.26813pt too wide) detected at line 143
+\OML/cmm/m/it/12 F[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@[]
+ []
+
+
+Overfull \hbox (191.64673pt too wide) detected at line 147
+\OML/cmm/m/it/12 F[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@[]
+ []
+
+[43]
+Overfull \hbox (40.66524pt too wide) detected at line 155
+[][]
+ []
+
+
+Overfull \hbox (97.63275pt too wide) detected at line 167
+[][]
+ []
+
+
+Overfull \hbox (97.63275pt too wide) detected at line 173
+[][]
+ []
+
+[44]) [45] (./section6.tex [46]) [47] (./Main.bbl [48] [49] [50] [51] [52]
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1214,81 +1272,24 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 28--38
-[]\TU/lmr/m/n/12 M. König, S. Wiedmann, C. Brüne, A. Roth, H. Buhmann, L. W.
- []
-
-
-Underfull \hbox (badness 7203) in paragraph at lines 28--38
-\TU/lmr/m/n/12 Molenkamp, X.-L. Qi, S.-C. Zhang, Quantum spin hall insulator
- []
-
-
-Underfull \hbox (badness 6380) in paragraph at lines 28--38
-\TU/lmr/m/n/12 state in hgte quantum wells, Science 318 (5851) (2007) 766–770.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--38
-\TU/lmr/m/n/12 arXiv:https://science.sciencemag.org/content/318/5851/766.full.p
-df,
- []
-
-[39] [40] [41] [42]
-Underfull \hbox (badness 10000) in paragraph at lines 258--262
-\TU/lmr/m/n/12 URL $[][][][] [] [] [] [][][][][][] [] [][][][] [] [][] [] [][] 
-[] [][] [] [][][][][][][] [] [][] []
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 264--269
+Underfull \hbox (badness 1014) in paragraph at lines 266--274
 []\TU/lmr/m/n/12 S. Wu, V. Fatemi, Q. D. Gibson, K. Watanabe, T. Taniguchi, R. 
 J.
  []
 
-[43]
-Underfull \hbox (badness 1975) in paragraph at lines 271--275
-\TU/lmr/m/n/12 transition metal dichalcogenides, Science 346 (6215) (2014) 1344
-–1347.
- []
-
-[44]
-Underfull \hbox (badness 4940) in paragraph at lines 341--348
-[]\TU/lmr/m/n/12 A. M. Black-Schaffer, A. V. Balatsky, Odd-frequency supercondu
-ct-
- []
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 341--348
-\TU/lmr/m/n/12 ing pairing in topological insulators, Phys. Rev. B 86 (2012) 14
-4506.
- []
-
-
-Underfull \hbox (badness 3128) in paragraph at lines 359--366
-\TU/lmr/m/n/12 perconductivity in bilayer systems, Phys. Rev. B 90 (2014) 18451
-7.
- []
-
-[45]
-Underfull \hbox (badness 1014) in paragraph at lines 396--404
-[]\TU/lmr/m/n/12 S. Wu, V. Fatemi, Q. D. Gibson, K. Watanabe, T. Taniguchi, R. 
-J.
- []
-
-) [46] (./thanks.tex) (./publish.tex [47]) [48] (./Main.aux)
+) [53] (./thanks.tex) (./publish.tex [54]) [55] (./Main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.22pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 23989 strings out of 492922
- 497366 string characters out of 6138841
- 590886 words of memory out of 5000000
- 27607 multiletter control sequences out of 15000+600000
+ 24021 strings out of 492922
+ 497758 string characters out of 6138841
+ 591049 words of memory out of 5000000
+ 27629 multiletter control sequences out of 15000+600000
  544992 words of font info for 127 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 54i,15n,68p,837b,577s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,18n,68p,1040b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.pdf (53 pages).
+Output written on Main.pdf (61 pages).

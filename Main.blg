@@ -3,49 +3,60 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Main.aux
 The style file: elsarticle-num.bst
 Database file #1: ref.bib
+I was expecting a `,' or a `}'---line 1127 of file ref.bib
+ : 
+ : @article{re50,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1299 of file ref.bib
+ : 
+ : publisher = {American Association for the Advancement of Science},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty title in re7
 Warning--empty title in re8
 Warning--empty journal in re24
 Warning--empty year in re46
+Warning--empty journal in re56
 You've used 57 entries,
             2952 wiz_defined-function locations,
-            1053 strings with 15614 characters,
-and the built_in function-call counts, 18554 in all, are:
-= -- 1836
+            989 strings with 13752 characters,
+and the built_in function-call counts, 16472 in all, are:
+= -- 1533
 > -- 582
 < -- 0
 + -- 232
 - -- 175
-* -- 1647
-:= -- 2634
-add.period$ -- 86
+* -- 1240
+:= -- 2351
+add.period$ -- 58
 call.type$ -- 57
 change.case$ -- 55
 chr.to.int$ -- 0
-cite$ -- 61
-duplicate$ -- 525
-empty$ -- 2028
+cite$ -- 62
+duplicate$ -- 447
+empty$ -- 1813
 format.name$ -- 221
-if$ -- 4710
+if$ -- 4192
 int.to.chr$ -- 0
 int.to.str$ -- 57
 missing$ -- 57
-newline$ -- 248
+newline$ -- 181
 num.names$ -- 57
-pop$ -- 290
+pop$ -- 281
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1008
+skip$ -- 1026
 stack$ -- 0
 substring$ -- 1085
-swap$ -- 156
+swap$ -- 59
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
+warning$ -- 5
 while$ -- 120
 width$ -- 59
-write$ -- 563
-(There were 4 warnings)
+write$ -- 466
+(There were 2 error messages)
