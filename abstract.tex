@@ -17,9 +17,11 @@
 
 %\setlength{\baselineskip}{26pt}
 %\thispagestyle{empty}
- 以前，基于维象的模型，研究人员提出了可以在具有二维拓扑绝缘体和高温超导体的异质结构中实现高阶拓扑超导性。对于一个四方样品,马约拉纳束缚态自然会出现在系统的各个角落。在这
-里，我们从微观模型出发，从理论上重新研究该系统。我们研究发现准粒子能谱的对称性与先前获得的显着不同。在动量空间中，准粒子光谱的四重旋转对称性被破坏。对于圆柱几何体能带图，零能量边
-缘状态可能会出现，但它们位于一个边界。对于具有开放边界的有限大小系统，马约拉纳边界状态仅出现在系统角的一部分处。通过研究超导配对序参量和反常格林函数，可以很好地理解所有非对称结果。\\
+ 近些年来，拓扑绝缘体在理论与实验上都有了非常迅速的发展，由于超导体的配对能隙与绝缘体能隙之间的具有相似性，拓扑超导体同样引起了研究人员的关注。而对于拓扑体系，体边对应是其最主要的特征之一，拓扑超导体的体态虽然是存在电子配对能隙的，但是边界上存在受拓扑保护的边界态，因为超导体中粒子空穴对称性的存在，这个边界态与马约拉纳费米子密切相关，马约拉纳费米子自身也是其反粒子，而且其满足非阿贝尔统计，在拓扑量子计算方面具有非常好的利用潜力。最近研究人员发现了一种新的对应关系体角对应，即对于一个二维的体系，其拓扑保护的边界态出现在比系统低两个维度的角落处，在一个拓扑超导的二维系统中，会出现马约拉纳角态。
+ 
+ 以前，基于维象的模型，研究人员提出了可以在二维拓扑绝缘体和高温超导体的异质结系统中实现高阶拓扑超导体，通过将超导电子配对直接加入到拓扑绝缘体哈密顿量中，研究结果显示对于一个四方样品，马约拉纳束缚态会出现在系统的各个角落。本论文中，我们从微观模型出发，我们同时考虑了超导体与二维拓扑绝缘体，并将两者之间的耦合考虑进来，从理论上重新研究了该系统。首先我们计算了谱函数，发现在考虑了耦合之后发现低能下谱函数主要来自于超导体的贡献，而能量较高时由于拓扑绝缘体与超导体之间的耦合，与唯象模型相比能谱发生了较大的变化。接下来从开边界能带图以及实空间中的局与电子态密度结果中，我们发现与唯象模型不同，这里马约拉纳角态并非出现在系统的每一个角落，因为系统中$i_y=N$边界上的边界态并未打开能隙，而其余三个边界上都存在超导诱导出的能隙，所在$i_y=N$这条边界与相邻边界之间不存在反号的质量项，从而无法在相邻边之间的角落处形成角态。我们从动量空间与实空间的序参量计算可知，近邻效应在拓扑绝缘体中诱导出来的电子配对可以同时包含$d$波与$p$波，它们一起作用后会使得某一个边界上的电子配对变得非常小，从而无法将拓扑绝缘体边界态打开能隙，实空间序参量的结果也同样证实了这一点。最后我们利用格林函数运动方程方法求解了动量空间中的反常格林函数，我们发现他可以表示为奇函数与偶函数部分，正对应着数值计算中电子配对的$p$波与$d$波电子配对，解析得到的结果与数值结果完全一致。
+ 
+ 通过数值以及理论的分析，我们成功的揭示了通过异质结系统实现利用超导的近邻效应来实现高阶拓扑超导体时，马约拉纳角态并不是在所有的角落中都会出现，这对之后在实验上实现以及观测高阶拓扑超导体中的马约拉纳角态以及利用其实现拓扑量子计算都具有重要的意义。\\
 \quad\noindent{\zihao{-4}\heiti 关键词:}高阶拓扑超导,马约拉纳,拓扑绝缘体,准粒子
 
 \newpage
@@ -42,13 +44,8 @@
 \addcontentsline{toc}{section}{ABSTRACT}
 %\linespread{1.4}\zihao{-4}
 %\thispagestyle{empty}%将本页的格式完全清除
- Previously, based on a phenomenological model, it was proposed that the higher-order topological superconductivity can be realized in a heterostructure with a two-dimensional topological insulator and a high-temperature
-superconductor. The Majorana bound states naturally emerge at the corners of the system. Here starting from a
-microscopic model, we restudy this system theoretically. The symmetries of the quasiparticle energy spectra are
-significantly different from those previously obtained. In the momentum space, the fourfold rotational symmetry
-of the quasiparticle spectra is broken. For a cylinder geometry, the zero-energy edge states may appear, but
-they are localized at one boundary. For the finite-size system with open boundaries, the Majorana bound states
-emerge only at parts of the system corners. All of the asymmetrical results can be understood well by exploring
-the pairing order parameter and the anomalous Green's function.\\
+ In recent years, topological insulators have developed very rapidly in theory and experiment. Due to the similarity between the pairing energy gap of superconductors and the energy gap of insulators, topological superconductors have also attracted the attention of researchers. For a topological system, the bulk-boundary correspondence is one of its most important features. Although the bulk state of a topological superconductor has an electron pairing energy gap, there are topologically protected boundary states on the boundary, because the particle hole symmetry in the superconductor Existence, this boundary state is closely related to Majorana fermions, Majorana fermions themselves are also their antiparticles, and they satisfy non-Abelian statistics, and have very good potential for use in topological quantum computing. Recently, researchers have discovered a new correspondence between bulk-corner correspondence, that is, for a 2-dimensional system, the boundary state of its topological protection appears in the corner two dimensions lower than the system, and it can also be in the superconducting system. Majorana corner state is generated in the system. Previously, based on the dimensional model, researchers proposed that high-order topological superconductivity can be achieved in heterostructures with two-dimensional topological insulators and high-temperature superconductors. For a tetragonal sample, Majorana corner states will naturally appear in every corner of the system. In this thesis, we started from the microscopic model, we also considered the superconductor and the 2D topological insulator, and considered the coupling between the two, and re-studied the system theoretically. First, we calculated the spectral function, and found that after considering the coupling, we found that the spectral function at low energies mainly comes from the contribution of the superconductor, and the contribution weight of the topological insulator at higher energy is greater. Next, from the open-boundary energy band diagram and the results of the local and electronic density of states in real space, we find that unlike the phenomenological model, the Majorana corner state does not appear in every corner of the system, because a certain one in the system The boundary state on the boundary has not opened the energy gap, so that it cannot form an corner state with the adjacent two sides. From the calculation of order parameters in momentum space and real space, we know that the electron pairing induced by the proximity effect in the topological insulator can include both the $d$-wave and the $p$-wave, and they will make the electron pairing on a certain boundary when they work together. It becomes very small, so that the gapless boundary state of the topological insulator cannot be opened. The result of the real space order parameter also confirms this point. Finally, we use the Green's function equation of motion method to solve the anomalous Green's function in the momentum space. We find that it can be expressed as odd function and even function part, which corresponds to the $p$ wave and $d$ wave electron paired in numerical calculations. Paired, the analytical result is exactly the same as the numerical result.
+ 
+  Through numerical and theoretical analysis, we have successfully revealed that Majorana angular states in the neighbor-induced high-order topological superconductors do not appear in all corners. This is important for the experimental realization and observation of high-order topological superconductors. Majorana corner state and its use to realize topological quantum computing are of great significance.\\
 \noindent\textbf{\zihao{-4} Keywords:} higher-order topological superconductivity,Majorana,topological insulator,
 quasiparticle

@@ -5,11 +5,11 @@
 %\setcounter{page}{1}
 %\pagestyle{plain}
 \subsection{拓扑绝缘体}
-1980年实验物理学家Kalus von Klitzing在二维电子气中加入高磁场，发现体系的霍尔电阻随着磁场强度改变的时候出现了一些非常平整的平台\cite{re1}。这种整数化的平台其实是量子效应的一种宏观表现，正是这个发现为人们打开了研究拓扑物态的大门，而Kalus von Klitzing也因此获得了1985年的诺贝尔物理学奖。当均匀的电子气处于强磁场的时候会形成Landua能级，如果体系的费米面恰好处于Landua能级的中间，由能带论可知系统此时处于绝缘状态。但是之后的研究却发现虽然在强磁场下体系内部是绝缘的，但是在边界上却形成了无耗散的导电通道，正是这些通道的存在形成了平台化的霍尔电阻。1982年David J. Thouless，J.Michael Kosterlitz等人(TKNN)对这个量子化的平台给出了完美的解释\cite{re2}。通过Kubo公式求解体系霍尔电导发现它和一个正数是相关的，也就是说霍尔电导等于$ne^2/h$，这里的正数$n$表示为：
+1980年实验物理学家Kalus von Klitzing在二维电子气中加入高磁场，发现体系的霍尔电阻随着磁场强度改变的时候出现了一些非常平整的平台\cite{re1}。这种整数化的平台其实是量子效应的一种宏观表现，正是这个发现为人们打开了研究拓扑物态的大门，而Kalus von Klitzing也因此获得了1985年的诺贝尔物理学奖。当均匀的电子气处于强磁场的时候会形成Landua能级，如果体系的费米面恰好处于Landua能级的中间，由能带论可知系统此时处于绝缘状态。但是之后的研究却发现虽然在强磁场下体系内部是绝缘的，但是在边界上却形成了无耗散的导电通道，正是这些通道的存在形成了平台化的霍尔电阻。1982年David J. Thouless，J.Michael Kosterlitz等人(TKNN)对这个量子化的平台给出了完美的解释\cite{re2}。通过Kubo公式求解体系霍尔电导发现它和一个整数是相关的，也就是说霍尔电导等于$ne^2/h$，这里的正数$n$表示为：
 \begin{equation}	
 n=\frac{1}{2}\int_{\mathrm{BZ}}d^2k\nabla_k\times i\sum_{l\in\mathrm{bands}}\langle\varphi_l|\nabla_k|\varphi_l\rangle\label{chern_num}
 \end{equation}
-人们将正数$n$称为第一陈数（Chern Number）。从能带论的角度出发进行考虑，陈数代表的是二维电子气系统的一种拓扑性质，在不闭合体系能隙的时候，连续地改变哈密顿量不会引起它的改变，所以被称为拓扑不变量，这个量仅关联与电子态的拓扑性质。把环境与均匀二维电子气当作一个整体，当电子态从电子气体系中演化到环境的时候，陈数将会由非零变为零，那么在环境与电子气的交界处必须存在着一个能隙为零的界面来过渡，这样才可以实现陈数的变化。霍尔电导与陈数之间的这种深刻联系完美解释了霍尔电导量子化平台的起源，也打开了拓扑物态在物理学领域的应用大门。
+人们将正数$n$称为第一陈数（Chern Number）。从能带论的角度出发进行考虑，陈数代表的是二维电子气系统的一种拓扑性质，在不闭合体系能隙的时候，绝热连续地改变哈密顿量不会引起它的改变，所以被称为拓扑不变量，这个量仅关联与电子态的拓扑性质。把环境与均匀二维电子气当作一个整体，当电子态从电子气体系中演化到环境的时候，陈数将会由非零变为零，那么在环境与电子气的交界处必须存在着一个能隙为零的界面来过渡，这样才可以实现陈数的变化。霍尔电导与陈数之间的这种深刻联系完美解释了霍尔电导量子化平台的起源，也打开了拓扑物态在物理学领域的应用大门。
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.5]{pic/fig1.png}
@@ -20,15 +20,15 @@ n=\frac{1}{2}\int_{\mathrm{BZ}}d^2k\nabla_k\times i\sum_{l\in\mathrm{bands}}\lan
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.35]{pic/fig2.eps}
-	\caption{A,HgTe与CdTe在布里渊区$\Gamma$点附近的体能带结构。B，CdTe/HgTe量子阱结构中正常态$d<d_c$与$d>d_c$的能级结构示意图。图片来源于文献\cite{re3}}\label{fig2}
+	\caption{A,HgTe与CdTe在布里渊区$\Gamma$点附近的体能带结构。B，CdTe/HgTe量子阱结构中正常态$d<d_c$与$d>d_c$的能级结构示意图。}\label{fig2}
 \end{figure}
 
- 当一个系统哈密顿量满足TRS的时候，由Kramer定理可以知道此时每一个本征态的简并度为2，或者说满足TRS的算符，Kramer对在BZ中一定存在简并对。对于无自旋的粒子，时间反演算符为$\mathcal{T}=\mathcal{K}$，这里$\mathcal{K}$是复共轭算符 此时$\mathcal{T}^2=1$；对于有自旋的粒子，时间反演算符为$\mathcal{T}=e^{i\pi S_y}\mathcal{K}$，此时满足$\mathcal{T}^2=-1$。如图\ref{fig1}(d)所示，由于QSHE是时间反演不变的，所以它的连接价带和导带的表面态是由两支自旋动量都相反的表面态组成，而这两支表面态的交点正是时间反演不变动量点。这种表面态在实空间中的表现则如图\ref{fig1}(c)所示，系统与环境的交界面处存在着两个导电通道，其中输运方向和自旋方向都是相反的，是由时间反演对称保护的，所以电子的背散射是被禁止导致电子的无耗散运动，形成了电子输运的高速公路，正是这种特殊的性质，为将来量子器件的应用开启了新的大门。
+ 当一个系统哈密顿量满足TRS的时候，由Krammer定理可以知道此时每一个本征态的简并度为2，Krammer对在BZ中一定存在简并对。对于无自旋的粒子，时间反演算符为$\mathcal{T}=\mathcal{K}$，这里$\mathcal{K}$是复共轭算符 此时$\mathcal{T}^2=1$；对于有自旋的粒子，时间反演算符为$\mathcal{T}=e^{i\pi S_y}\mathcal{K}$，此时满足$\mathcal{T}^2=-1$。如图\ref{fig1}(d)所示，由于QSHE是时间反演不变的，所以它的连接价带和导带的表面态是由两支自旋动量都相反的表面态组成，而这两支表面态的交点正是时间反演不变动量点。这种表面态在实空间中的表现则如图\ref{fig1}(c)所示，系统与环境的交界面处存在着两个导电通道，其中输运方向和自旋方向都是相反的，是由时间反演对称保护的，所以电子的背散射是被禁止导致电子的无耗散运动，形成了电子输运的高速公路，正是这种特殊的性质，为将来量子器件的应用开启了新的大门。
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.3]{pic/fig3.png}
-\caption{HgTe/CdTe量子阱霍尔电阻随HgTe厚度的变化。图片来源于文献\cite{re5}}\label{fig3}
+\caption{HgTe/CdTe量子阱霍尔电阻随HgTe厚度的变化。}\label{fig3}
 \end{figure}
 
  实现拓扑绝缘体需要较强的SOC来将体态能带打开一个小的能隙，因为SOC起源于相对论效应，而元素周期表中越重的元素其相对论效应越强，则在真实材料体系中实现QSHE需要在较重的元素中搜寻。2006年张守晟等人通过理论语言在HgTe/CdTe的量子阱组成的三明治结构中，通过调节量子阱的厚度可以实现能带反转，进而实现QSHE如图\ref{fig2}\cite{re4}。实验上很快就在CdTe/HgTe/CdTe的量子阱中通过调节HgTE的厚度，发现霍尔电导的稳定平台，且不受样品厚度等其它因素的影响如图\ref{fig3}\cite{re5}。这是实验上首次确认了量子自旋霍尔效应。
@@ -44,22 +44,23 @@ n=\frac{1}{2}\int_{\mathrm{BZ}}d^2k\nabla_k\times i\sum_{l\in\mathrm{bands}}\lan
 \end{figure}
 依照相同的逻辑，同样可以考虑和量子自旋霍尔效应类似的超导态，一个螺旋拓扑超导体，自旋向上的费米子组成$p_x+ip_y$的态，自旋向下的费米子组成$p_x-ip_y$的态。这样态存在一个边界上存在绕行方向相反的螺旋马约拉纳边界态且体态不存在能隙关闭点。相反，时间反演不变拓扑绝缘体的边界态是有两倍自由度的螺旋态Dirac费米子。对于量子自旋霍尔效应态，边界态的不能存在质量项，这是由时间反演对称保护的。因此，这样的超导相是由时间反演对称保护的，可以由$\mathit{Z}_2$拓扑不变量描述\cite{re12}。
 
- 2008年Fu和Kane两人提出了利用三维(3D)拓扑绝缘体的表面态近邻一个超导体，可以在外加磁场产生的Vortex中心束缚马约拉纳零能模\cite{re19}，如图\ref{fig5}(a)所示，在3D拓扑绝缘体表面放置两块分开的$s$-波超导体，对应的项为分别是$\phi$和0，如果改变其中一块超导体的位相$\phi$，则体系的能带也会随之发生改变，当$\phi=\pi$时正好对应着体态能隙关闭点，即图\ref{fig5}(b)所示。对于这样的一个异质结结构，此时系统的边界处会存在马约拉纳零能模。同样的也可以构造一个图\ref{fig5}(c)所示的三角异质结，这样通过调节相互之间的超导位相，可以实现马约拉纳零能模的控制。图\ref{fig5}(d)中灰色区域所示的即为马约拉纳零能模可以存在的区域。
+ 超导电子配对为$p_x\pm ip_y$的超导体本身就具有拓扑性质，但是$p$波电子配对在自然界是非常稀少的，研究人员开始提出其他方案来实现拓扑超导。2008年Fu和Kane两人提出了利用三维(3D)拓扑绝缘体的表面态近邻一个超导体，可以在外加磁场产生的Vortex中心束缚马约拉纳零能模\cite{re19}，如图\ref{fig5}(a)所示，在3D拓扑绝缘体表面放置两块分开的$s$-波超导体，对应的项为分别是$\phi$和0，如果改变其中一块超导体的位相$\phi$，则体系的能带也会随之发生改变，当$\phi=\pi$时正好对应着体态能隙关闭点，即图\ref{fig5}(b)所示。对于这样的一个异质结结构，此时系统的边界处会存在马约拉纳零能模。同样的也可以构造一个图\ref{fig5}(c)所示的三角异质结，这样通过调节相互之间的超导位相，可以实现马约拉纳零能模的控制，这种对马约拉纳零能模的操作也为拓扑量子计算提供了一定的基础条件。图\ref{fig5}(d)中灰色区域所示的即为马约拉纳零能模可以存在的区域。
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.5]{pic/fig5}
 \caption{(a)STIS异质结；(b)STIS线性结的能带图；(c)超导三相结；(d)三线结相图。}\label{fig5}
 \end{figure}
-在存在Rashba SOC的2D电子气中
+
+研究人员同样发现在存在Rashba SOC的2D电子气中
 \begin{equation}
 H=\int d^2x\psi^\dagger\left[\mathbf{p}^2/2m+\alpha(\mathbf{\sigma}\mathbf{\times p})\cdot\hat{\mathbf{z}}-\mu\right]
 \end{equation}
-同样可以利用近邻效应诱导$s$-波配对，此时系统每个分立的费米面都会形成非平庸的超导体，但是两个费米面上的马约拉纳费米子会相互湮灭，所以在Rashba系统中诱导$s$-波超导配对是平庸的。之后研究人员发现通过在哈密顿量中引入破坏时间反对称的$M\sigma_z$项可以得到非平庸的超导相，它会把$\mathbf{k}=0$处的简并分离开来。如果将化学势被调节到$|\mu|<|M|$则半径较小的费米面会消失，所以仅剩下外部半径较大的费米面上诱导$s$-波超导配对，从而体系变成拓扑非平庸相\cite{re20,re21,re22}。
+也可以利用近邻效应在电子气中诱导$s$-波配对，此时系统每个分立的费米面都会形成非平庸的超导体，但是两个费米面上的马约拉纳费米子会相互湮灭，所以在Rashba系统中诱导$s$-波超导配对是平庸的。之后研究人员发现通过在哈密顿量中引入破坏时间反对称的$M\sigma_z$项可以得到非平庸的超导相，它会把$\mathbf{k}=0$处的简并分离开来。如果将化学势被调节到$|\mu|<|M|$则半径较小的费米面会消失，所以仅剩下外部半径较大的费米面上诱导$s$-波超导配对，从而体系变成拓扑非平庸相\cite{re20,re21,re22}。
 
- 和拓扑绝缘体相同，拓扑超导体在处于拓扑相时也存在非平庸的边界态，和拓扑绝缘体不同的是在这里可以存在局域的马约拉纳费米子\cite{re12,re13,re14,re15,re16}。马约拉纳费米子的反粒子是它本身($\gamma^\dagger=\gamma$)，至今未被确认为基本粒子，但是在凝聚态体系的准粒子激发种可以产生这种粒子。相比较于其它的基本粒子，马约拉纳费米子满足非阿贝尔统计，属于非阿贝尔费米子，且其具有较好的抵抗环境噪声稳定存在，同时也具有高度非局域化性质，这两种性质在实现拓扑量子计算方面有很大的应用价值\cite{re17,re18}。
+ 和拓扑绝缘体相同，拓扑超导体在处于拓扑相时也存在非平庸的边界态，和拓扑绝缘体不同的是在这里可以存在局域的马约拉纳费米子\cite{re12,re13,re14,re15,re16}。马约拉纳费米子的反粒子是它本身($\gamma^\dagger=\gamma$)，虽然并没有被却认为基本粒子，但是在凝聚态体系的准粒子激发中可以产生这种粒子。相比较于其它的基本粒子，马约拉纳费米子满足非阿贝尔统计，属于非阿贝尔费米子，而且它与激发态之间的能隙对应的正是超导能隙，具有较好的抵抗环境噪声的能力，可以稳定存在，同时也具有高度非局域化性质，这两种性质在实现拓扑量子计算方面有很大的应用价值\cite{re17,re18}。
 %======================================================
 \subsection{高阶绝缘体}
-\qquad 最近研究人员发现了一种新的拓扑相，通常被称为高阶拓扑(HOP)\cite{re23,re24,re25,re26,re27,re28,re29,re30,re31,re32,re33,re34,re35,re36,re37,re38,re39,re40}。对于通常的拓扑物态来说，其非平庸的边界态总是出现在比系统维度低一维的维度中，比如2D拓扑绝缘体的边界态是1维(1D)的。但是这种拓扑相其边界态出现的维度比系统维度可以低两维或者3维。一个$d$维的高阶拓扑态，它拓扑保护的无能隙边界态会出现在$d-n$维$(n\le d)$。比如一个2D$(d=2)$的HOP物态其边界态会出现的系统的角落($d=2,n=2$)，3D$(d=3)$的HOP态其边界态则会出现在系统的棱$(n=2)$或者角落$(n=3)$，如图\ref{fig6}所示。
+ 最近研究人员发现了一种新的拓扑相，被称为高阶拓扑\cite{re23,re24,re25,re26,re27,re28,re29,re30,re31,re32,re33,re34,re35,re36,re37,re38,re39,re40}。对于通常的拓扑物态来说，其非平庸的边界态总是出现在比系统维度低一维的维度中，比如二维拓扑绝缘体的边界态是一维(1D)的。但是这种新的拓扑相其边界态可以出现的维度比系统维度可以低两维或者三维，即一个$d$维的高阶拓扑态，它拓扑保护的无能隙边界态会出现在$d-n$维$(n\le d)$。比如一个2D$(d=2)$的高阶拓扑物态其边界态会出现的系统的角落($d=2,n=2$)，3D$(d=3)$的高阶拓扑态其边界态则会出现在系统的棱$(n=2)$或者角落$(n=3)$，如图\ref{fig6}所示。
 \begin{figure}[h]
 \centering
 \includegraphics[scale=1.7]{pic/fig6}
@@ -82,18 +83,22 @@ H_c(\mathbf{k})=(M+t\sum_i\cos k_i)\tau_z\sigma_0+\Delta_1\sum_i\sin k_i\tau_x\s
 \includegraphics[scale=0.7]{pic/fig7}
 \caption{手性高阶拓扑绝缘体；(a)哈密顿量(\ref{hoti})的相图，(b)一个元胞内满足$\hat{C}_4^z\mathcal{T}$的非共线反铁磁，(c)存在手性棱态(红色)的哈密顿量(\ref{hoti})的能谱图}\label{fig7}
 \end{figure}
-哈密顿量(\ref{hoti})的相图如图(\ref{fig7})(a)所示，当$1<|M/t|<3$且$\Delta_1,\Delta_2\neq 0$时，系统处于3D手性高阶拓扑绝缘体相。$x$和$y$方向取开边界条件，$z$方向取周期边界时，体系的能谱如图\ref{fig7}(c)所示，红色代表的手性棱模穿过了体态的能隙。从物理上讲，$\Delta_2$对应的项破坏了时间反演，对应着在$x$和$y$方向上相反的轨道流。当$\Delta_2$无限小的时候，它的主要作用是会在3D拓扑绝缘体的(100)与(010)表面上打开一个质量相反的能隙，这时候四个棱就是就会变成Dirac质量变号的质量畴壁，从而在棱上形成无能隙的手性模，也正好就是高阶拓扑绝缘体中的棱模。另外一种打破时间反演并保持$\hat{C}_4^z\mathcal{T}$的物理机制是在元胞内存在$(\pi,\pi,0)$方向上的非共线反铁磁序，如图\ref{fig7}(b)所示。这里值得注意的是，即使$\Delta_2$是有限大小的值，3D拓扑绝缘体的(001)面始终是无能隙的，由于Dirac锥是受$\hat{C}_4^z\mathcal{T}$保护的，表面在这个操作下是不变的，且存在一个Kramers类似的简并。通过第一性原理计算，研究人员同样确定SnTe在一定方向上施加压力是一种可以实现手性高阶拓扑绝缘体的材料\cite{re23}。
+哈密顿量(\ref{hoti})的相图如图(\ref{fig7})(a)所示，当$1<|M/t|<3$且$\Delta_1,\Delta_2\neq 0$时，系统处于3D手性高阶拓扑绝缘体相。$x$和$y$方向取开边界条件，$z$方向取周期边界时，体系的能谱如图\ref{fig7}(c)所示，红色代表的手性棱模穿过了体态的能隙。从物理上讲，$\Delta_2$对应的项破坏了时间反演，对应着在$x$和$y$方向上相反的轨道流。当$\Delta_2$无限小的时候，它的主要作用是会在3D拓扑绝缘体的(100)与(010)表面上打开一个质量相反的能隙，这时候四个棱就是就会变成Dirac质量变号的质量畴壁，从而在棱上形成无能隙的手性模，也正好就是高阶拓扑绝缘体中的棱模。另外一种打破时间反演并保持$\hat{C}_4^z\mathcal{T}$的物理机制是在元胞内存在$(\pi,\pi,0)$方向上的非共线反铁磁序，如图\ref{fig7}(b)所示。这里值得注意的是，即使$\Delta_2$是有限大小的值，3D拓扑绝缘体的(001)面始终是无能隙的，由于这个表面上的Dirac锥是受$\hat{C}_4^z\mathcal{T}$保护的，表面在这个操作下是不变的，且存在一个Kramers类似的简并。通过第一性原理计算，研究人员同样确定SnTe在一定方向上施加压力是一种可以实现手性高阶拓扑绝缘体的材料\cite{re23}。
 %======================================================
 \subsection{高阶拓扑超导体}
- 随着实验上在100K温度下实现了2D拓扑绝缘体\cite{re41,re42}，研究人员利用超导体的近邻效应，将2D拓扑绝缘体放置在一个高温超导体的基底上从而在拓扑绝缘体中诱导出$d$-波配对，从而来实现2D的高阶拓扑超导体\cite{re28,re27}。与传统的一阶拓扑超导体不同的是，此时系统中马约拉纳态是处在样品的角落处的，如图\ref{fig8}所示。
+ 随着实验上在100K温度下实现了2D拓扑绝缘体\cite{re41,re42}，研究人员提出利用超导体的近邻效应，将2D拓扑绝缘体放置在一个高温超导体的基底上从而在拓扑绝缘体中诱导出$d$-波配对，从而来实现2D的高阶拓扑超导体\cite{re28,re27}。与传统的一阶拓扑超导体不同的是，此时系统中马约拉纳零能态出现在样品的角落处的，如图\ref{fig8}所示。
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.7]{pic/fig8}
 \caption{示意图展示；一个2D拓扑绝缘体长在$d$-波或者$s_\pm$-波的高温超导体上，零能马约拉纳Kramers对(MKP)将会出现在2D拓扑绝缘体的角落。}\label{fig8}
 \end{figure}
-产生这个结果的物理图像如下：2D拓扑绝缘体的边界态是由1D无质量的Dirac费米子描述的，当通过近邻效应将2D拓扑绝缘体放置在超导体上面时，边界态会被诱导出的超导配对打开一个能隙，从而引入一个Dirac质量项。由于超导配对的对称性（比如说$d$-波配对），在每个角落处诱导出的质量是相反的，所以在系统的每个角落处形成类似质量畴壁的MKP激发。
-
- 根据上面的解释，这个结果的主要来源就是边界态，那么从一个2D拓扑绝缘体模型出发，之后通过近邻在2D拓扑绝缘体上诱导超导配对来进行研究。BdG哈密顿量写为
+产生这个结果的物理图像如下：2D拓扑绝缘体的边界态是由1D无质量的Dirac费米子描述的，当通过近邻效应将2D拓扑绝缘体放置在超导体上面时，由于超导体的近邻效应，会在拓扑绝缘体表面上诱导出电子配对，这种形式的电子配对会将拓扑绝缘体无能隙的边界态打开一个能隙，从而引入一个Dirac质量项。由于超导配对的对称性(比如说$d$-波配对)，如图\ref{fig22}所示，所以在相邻的两个方向上电子配对是相反的，导致相邻边界态上诱导出的质量是相反的，从而在相邻两条边界的相交角落处，形成类似质量畴壁，由于体系存在粒子空穴对称，这个束缚态即对应着零能的马约拉纳角态。
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{pic/dwave}
+	\caption{动量空间中$d$波超导体电子配对符号}\label{fig22}
+\end{figure}
+ 根据上面的解释，这个结果的主要来源就是边界态，那么从一个2D拓扑绝缘体模型出发，之后通过近邻效应在2D拓扑绝缘体上诱导出超导配对来进行研究。研究人员将超导电子配对作为2D拓扑绝缘体的本征属性直接加入到了拓扑绝缘体的哈密顿量中，BdG哈密顿量写为
 \begin{equation}
 \begin{aligned}
 \hat{H}&=\sum_\mathbf{k}\Psi_\mathbf{k}^\dagger H(\mathbf{k})\Psi_\mathbf{k}\\
@@ -105,9 +110,9 @@ H_c(\mathbf{k})=(M+t\sum_i\cos k_i)\tau_z\sigma_0+\Delta_1\sum_i\sin k_i\tau_x\s
 H(\mathbf{k})&=M(\mathbf{k})\sigma_z\tau_z+A_x\sin k_x\sigma_xs_z+A_y\sin k_y\sigma_y\tau_z+\Delta(\mathbf{k})s_y\tau_y-\mu\tau_z\\\label{hoti2}
 \end{aligned}
 \end{equation}
-这里泡里矩阵$s_i,\sigma_i,\tau_i$分别在自旋空间($\uparrow,\downarrow$)，轨道空间(a,b)，和粒子空穴空间。质量项$M(\mathbf{k})=m_0-t_x\cos k_x-t_y\cos k_y$，和$A_{x/y}$代表动能项代表着动能，$\Delta(\mathbf{k})$是超导配对，$\mu$是化学势。对于高温超导体，将配对取为
+这里泡里矩阵$s_i,\sigma_i,\tau_i$分别在自旋空间($\uparrow,\downarrow$)，轨道空间$(a,b)$，和粒子空穴空间。质量项$M(\mathbf{k})=m_0-t_x\cos k_x-t_y\cos k_y$，和$A_{x/y}$代表动能项代表着动能，$\Delta(\mathbf{k})$是超导配对，$\mu$是化学势。对于高温超导体，将配对取为
 \begin{equation}
-\Delta(\mathbf{k})=\Delta_x+\Delta_x\cos k_x+\Delta_y\cos k_y
+\Delta(\mathbf{k})=\Delta_0+\Delta_x\cos k_x+\Delta_y\cos k_y
 \end{equation}
 这个形式可以同时描述$d$-波和$s_\pm$-波这两种不同的配对形式。哈密顿量(\ref{hoti2})具有时间反演对称$\mathcal{T}H(\mathbf{k})\mathcal{T}^{-1}=H(-\mathbf{k})$，时间反演算符为$\mathcal{T}=is_y\mathcal{K}$，同时也满足粒子空穴对称$\mathcal{C}H(\mathbf{k})\mathcal{C}^{-1}=-H(-\mathbf{k})$，粒子空穴算符$\mathcal{C}=\tau_x\mathcal{K}$，$\mathcal{K}$代表复数共轭操作。
 
@@ -115,16 +120,16 @@ H(\mathbf{k})&=M(\mathbf{k})\sigma_z\tau_z+A_x\sin k_x\sigma_xs_z+A_y\sin k_y\si
 \begin{equation}
 \Delta_0=0,\qquad\Delta_x=-\Delta_y\equiv\Delta_d
 \end{equation}
-将哈密顿量$x$方向取开边界条件$y$方向取周期性边界条件（圆柱体结构），计算得到的能谱如图\ref{fig9}(a)所示，可以看到2D拓扑绝缘体的螺旋边界态在诱导出超导配对之后打开一个能隙，而从实空间的计算结果\ref{fig9}(b)也可以看到，系统的每个角落处都局域一个MKP，其能量由于粒子空穴对称性的存在被限制在零能处。
+将哈密顿量$x$方向取开边界条件$y$方向取周期性边界条件（圆柱体结构），计算得到的能谱如图\ref{fig9}(a)所示，可以看到2D拓扑绝缘体的螺旋边界态在诱导出超导配对之后打开一个能隙，而从实空间的计算结果\ref{fig9}(b)也可以看到，系统的每个角落处都局域一个马约拉纳卡莱默对，其能量由于粒子空穴对称性的存在被限制在零能处。
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.26]{pic/fig9}
 \includegraphics[scale=0.5]{pic/fig10}
 \caption{（a）圆柱体结构能谱图；（b）四个MKP的波函数分布}\label{fig9}
 \end{figure}
-有趣的是，此时马约拉纳零能态并不是出现的vortex中间或者是原子链尾端，它出现在了2D系统的角落，这正是最近研究人员提出的高阶拓扑绝缘体以及高阶拓扑超导体的特征。这里晶体的对称性是被强调了的，但是现在这个体系出现角态并不依赖于晶体的对称性。这里需要提及的是，体态的$d$-波超导配对是有节点存在的($\Delta(\mathbf{k})=0$)，MKP将会与这些无能隙的模混合到一起，但是仍然可以利用STM进行观测，当隧穿电导在电压等于零的位置出现一个明显的电导峰的时候，即为有力的证据。
+有趣的是，此时马约拉纳零能态并不是出现的vortex中心或者是原子链尾端，它出现在了2D系统的角落，这正是最近研究人员提出的高阶拓扑绝缘体以及高阶拓扑超导体的特征。这里晶体的对称性是被强调了的，但是现在这个体系出现角态并不依赖于晶体的对称性。这里需要提及的是，体态的$d$-波超导配对是有节点存在的($\Delta(\mathbf{k})=0$)，马约拉纳卡莱默对将会与这些无能隙的模混合到一起，但是仍然可以利用STM进行观测，当隧穿电导在电压等于零的位置出现一个明显的电导峰的时候，即为有力的证据。
 
- 解析来通过有效边界理论来得到一个更加直观的物理图像，首先将哈密顿量(\ref{hoti2})在$\Gamma=(0,0)$处做低能展开，并保留到二阶
+ 接下来通过有效边界理论来得到一个更加直观的物理图像，首先将哈密顿量(\ref{hoti2})在$\Gamma=(0,0)$处做低能展开，并保留到二阶
 \begin{equation}
 H(\mathbf{k})=(m+\frac{t_x}{2}k_x^2+\frac{t_y}{2}k_y^2)\sigma_z\tau_z+\lambda_xk_x\sigma_xs_z+\lambda_yk_y\sigma_y\tau_z-\frac{1}{2}(\Delta_xk_x^2+\Delta_yk_y^2)s_y\tau_y\label{hoti2e}
 \end{equation}
@@ -137,17 +142,17 @@ H_p(-i\partial_x,k_y)&=\lambda_yk_y\sigma_y\tau_z+\frac{\Delta_y}{2}s_y\tau_y\pa
 \end{equation}
 在这里忽略了$k_y^2$项，首先需要求解$H_0$的本征方程，然后将$H_p$当作微扰，所以$k_y^2$的贡献自然是可以忽略的。
 
- 在边界条件$\psi_\alpha(0)=\psi_\alpha(\infty)$下来求解$H_0\psi_\alpha(x)=E_\alpha\psi_\alpha(x)$可以得到四个零能解，其形式为
+ 在边界条件$\psi_\alpha(0)=\psi_\alpha(+\infty)$下来求解$H_0\psi_\alpha(x)=E_\alpha\psi_\alpha(x)$可以得到四个零能解，其形式为
 \begin{equation}
 \psi_\alpha(x)=\mathcal{N}_x\sin(\kappa_1x)e^{-\kappa_2x}e^{ik_yy}\xi_\alpha
 \end{equation}
 归一化系数为 $|\mathcal{N}_x|^2=4|\kappa_2(\kappa_1^2+\kappa_2^2)/\kappa_1^2|$。(符号简记，$\kappa_1=\sqrt{|(2m_x/t_x)|-(\lambda_x^2/t_x^2)}$，$ \kappa_2=(\lambda_x/t_x)$)。旋量部分 $\xi_\alpha$ 满足 $\sigma_ys_z\tau_z=-\xi_\alpha$，可以将旋量部分选取为
 \begin{equation}
 \begin{aligned}
-\xi_1&=|\sigma_y=-1\rangle\otimes|\uparrow\rangle\otimes|\tau=+1\rangle\\
-\xi_2&=|\sigma_y=+1\rangle\otimes|\downarrow\rangle\otimes|\tau=+1\rangle\\
-\xi_3&=|\sigma_y=+1\rangle\otimes|\uparrow\rangle\otimes|\tau=-1\rangle\\
-\xi_4&=|\sigma_y=-1\rangle\otimes|\downarrow\rangle\otimes|\tau=-1\rangle
+\xi_1&=|\sigma_y=-1\rangle\otimes|\uparrow\rangle\otimes|\tau_z=+1\rangle\\
+\xi_2&=|\sigma_y=+1\rangle\otimes|\downarrow\rangle\otimes|\tau_z=+1\rangle\\
+\xi_3&=|\sigma_y=+1\rangle\otimes|\uparrow\rangle\otimes|\tau_z=-1\rangle\\
+\xi_4&=|\sigma_y=-1\rangle\otimes|\downarrow\rangle\otimes|\tau_z=-1\rangle
 \end{aligned}
 \end{equation}
 在这个基矢的选取下，微扰部分$H_p$计算为
@@ -177,13 +182,13 @@ H_{\uppercase\expandafter{\romannumeral4}}&=-A_xk_xs_z+M_{\uppercase\expandafter
 H_{\mathrm{edge}}=-iA(l)s_z\partial_l+M(l)s_y\tau_y\label{edge2}
 \end{equation}
 
-这里的动能系数$A(l)$与Dirac质量项$M(l)$都是阶跃函数：$A(l)=A_y,A_x,A_y,A_x$，$M(l)=\Delta_dm/t_x,-\Delta_dm/t_y,\Delta_dm/t_x,-\Delta_dm/t_y$($l=\mathrm{\uppercase\expandafter{\romannumeral1},\uppercase\expandafter{\romannumeral2},\uppercase\expandafter{\romannumeral3},\uppercase\expandafter{\romannumeral4}}$)。从这里可以看出，在系统的每个角落，系数$A_{x,y}$并不会改变符号，但是Dirac质量项$M_(l)$因为$d$-波配对$\Delta_x=-\Delta_y$的原因，在每个角落的位置都会反号，从而在每个角落处产生一个质量畴壁，形成类似于Jackiw-Rebbi零能模\cite{re43,re44}的束缚态。例如在边界($\mathrm{\uppercase\expandafter{\romannumeral1}}$)与($\mathrm{\uppercase\expandafter{\romannumeral2}}$)形成的角落中，零能束缚态波函数为
+这里的动能系数$A(l)$与Dirac质量项$M(l)$都是阶跃函数：$A(l)=A_y,A_x,A_y,A_x$，$M(l)=\Delta_dm/t_x,-\Delta_dm/t_y,\Delta_dm/t_x,-\Delta_dm/t_y$($l=\mathrm{\uppercase\expandafter{\romannumeral1},\uppercase\expandafter{\romannumeral2},\uppercase\expandafter{\romannumeral3},\uppercase\expandafter{\romannumeral4}}$)。从这里可以看出，在系统的每个角落，系数$A_{x,y}$并不会改变符号，但是Dirac质量项$M(l)$因为$d$-波配对$\Delta_x=-\Delta_y$的原因，在每个角落的位置都会反号，从而在每个角落处产生一个质量畴壁，形成类似于Jackiw-Rebbi零能模\cite{re43,re44}的束缚态。例如在边界($\mathrm{\uppercase\expandafter{\romannumeral1}}$)与($\mathrm{\uppercase\expandafter{\romannumeral2}}$)形成的角落中，零能束缚态波函数为
 \begin{equation}
 |\Psi^\pm_{\mathrm{MKP}}\rangle\sim e^{-\int^ldl^{'}M(l^{'})/A(l^{'})}|s_x=\tau_y=1\rangle
 \end{equation}
 由于哈密顿量满足时间反演不变，它保证了这两个零能态之间不会相互耦合并产生能隙。
 
- 现在考虑另外一种配对形式的铁基高温超导体，其配对形式有$s_\pm$-波配对，实验上也观测到这种配对在费米面上当靠近BZ中心与BZ边界的时候都具有$s$-波配对的性质，但是在这两个区域内的配对符号则是相反的，当费米面与超导配对为零的节线不相交的时候，超导配对在整个体态都是有能隙的。$s_\pm$-波配对的一个简单形式为
+ 现在考虑另外一种配对形式的铁基高温超导体，其配对形式有$s_\pm$-波配对，实验上也观测到这种配对在费米面上当靠近BZ中心与BZ边界的时候都具有$s$-波配对的性质，但是在这两个区域内的配对符号则是相反的，当费米面与超导配对为零的节线不相交的时候，超导配对在整个体态都是有能隙的，不会出现类似$d$波配对与费米相交的无能隙激发。$s_\pm$-波配对的一个简单形式为
 \begin{equation}
 \Delta(\mathbf{k})=\Delta_0-\Delta_1(\cos k_x+\cos k_y)
 \end{equation}
@@ -195,7 +200,10 @@ H_{\mathrm{edge}}=-iA(l)s_z\partial_l+M(l)s_y\tau_y\label{edge2}
 \end{figure}
 同样的，在$s_\pm$-波配对的情形下，可以来研究低能边界理论，将哈密顿量在$\Gamma=(0,0)$点做展开
 \begin{equation}
-H(\mathbf{k})=(m+\frac{t_x}{2}k_x^2+\frac{t_y}{2}k_y^2)\sigma_z\tau_z+\lambda_xk_x\sigma_xs_z+\lambda_yk_y\sigma_y\tau_z+\left[\Delta_0-2\Delta_1+\frac{\Delta_1}{2}(k_x^2+k_y^2)\right]s_y\tau_y\label{hoti2s}
+\begin{aligned}
+H(\mathbf{k})&=(m+\frac{t_x}{2}k_x^2+\frac{t_y}{2}k_y^2)\sigma_z\tau_z+\lambda_xk_x\sigma_xs_z+\lambda_yk_y\sigma_y\tau_z\\
+&+\left[\Delta_0-2\Delta_1+\frac{\Delta_1}{2}(k_x^2+k_y^2)\right]s_y\tau_y\label{hoti2s}
+\end{aligned}
 \end{equation}
 利用和前面相似的方法，对边界(\uppercase\expandafter{\romannumeral1})将哈密顿量分解为$H=H_0+H_p$
 \begin{equation}
@@ -223,7 +231,7 @@ M_{\mathrm{\uppercase\expandafter{\romannumeral1}}}&=\int_{0}^\infty dx\Psi_\alp
 (R_s-R_x)(R_s-R_y)<0
 \end{equation}
 也就意味着此时超导配对节线环需要和能带反转环相交才可以，如图\ref{fig11}所示
-\begin{figure}
+\begin{figure}[h]
 \centering
 \includegraphics[scale=0.45]{pic/fig12a}
 \includegraphics[scale=0.45]{pic/fig12b}
@@ -247,26 +255,32 @@ h^{\mathrm{TI}}(\mathbf{k})&=\left[2t(\cos k_x-\cos k_y)+4t_1\cos k_x\cos k_y\ri
 \includegraphics[scale=0.7]{pic/fig13}
 \caption{(a)2D拓扑绝缘体沿($0\bar{1}$)方向圆柱体结构能带图，此时边界态出现在$k_x=\pi$；(b)能带(a)在加入$s_\pm$配对后BdG哈密顿量的能谱图；(c-d)和(a-b)相似，此时边界态出现在($\bar{1}0$)这个方向的$k_y=0$处}\label{fig12}
 \end{figure}
-当在一个四方结构的拓扑绝缘体中诱到$s_\pm$-波配对之后，螺旋的边界态会被打开能隙，从而在每个角落处形成MKP，结果如\ref{fig12}(f)所示。
+当在一个四方结构的拓扑绝缘体中诱导$s_\pm$-波配对之后，螺旋的边界态会被打开能隙，从而在每个角落处形成马约拉纳卡莱默对，结果如\ref{fig12}(f)所示。
 
- 当化学势$\mu$比较小的时候，拐角处局域的MKP可以通过边界分析来解释，如图\ref{fig12}(e)所示，当$\Delta_0=0$的时候，在BZ中超导配对$\Delta(\mathbf{k})$是有正负变化的，在($0\bar{1}$)边界上，$k_x=\pi$处的螺旋边界态所获得的超导配对值为负，因为在$k_x=\pi$处，所有$k_y$对应的$\Delta(\mathbf{k})$都是负号；相反的在$(\bar{1}0)$边界上，$k_y=0$处的边界态所获得的超导配对负号都是正的，因为在$k_y=0$对于所有的$k_x$而言，$\Delta(\mathbf{k})$都是正号。所在这就会在相邻的两个边界处形成质量畴壁，从而在拐角处产生MKP。
+当化学势$\mu$比较小的时候，拐角处局域的马约拉纳卡莱默对可以通过边界分析来解释，如图\ref{fig12}(e)所示，当$\Delta_0=0$的时候，在BZ中超导配对$\Delta(\mathbf{k})$是有正负变化的，在($0\bar{1}$)边界上，$k_x=\pi$处的螺旋边界态所获得的超导配对值为负，因为在$k_x=\pi$处，所有$k_y$对应的$\Delta(\mathbf{k})$都是负号；相反的在$(\bar{1}0)$边界上，$k_y=0$处的边界态所获得的超导配对负号都是正的，因为在$k_y=0$对于所有的$k_x$而言，$\Delta(\mathbf{k})$都是正号。所在这就会在相邻的两个边界处形成质量畴壁，从而在拐角处产生马约拉纳卡莱默对。
 
- 除了利用高温超导体电子配对的各向异性来产生高阶拓扑超导体，研究人员同样提出了利用各向同性的$s$-波超导体和一个面内的Zeeman场来实现高阶拓扑超导体\cite{re45}。
+除了利用高温超导体电子配对的各向异性来产生高阶拓扑超导体，研究人员同样提出了利用各向同性的$s$-波超导体和一个面内的Zeeman场来实现高阶拓扑超导体\cite{re45}。
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.2]{pic/fig14.pdf}
 \caption{量子自旋霍尔效应与$s$-波超导构成异质结，并在面内存在一个各项异性的磁场，马约拉纳零能模出现在系统的四个拐角处。}\label{fig13}
 \end{figure}
-如示意图\ref{fig13}所示，在$s$-波超导体的基地上放置量子自旋霍尔绝缘体，在面内的$x$方向上存在着Zeeman场，而$y$方向则没有Zeeman，正是这个各向异性的Zeeman场使得不同的边界上诱导处相反的质量，从而可以在系统拐角处产生马约拉纳零能模。由于Zeeman场的存在破坏了时间反演对称，所以此时每个拐角处只有一个马约拉纳零能模。$s$-波超导体相比于其它的高温超导体虽然具有较低的超导转变温度，但是其超导相干长度较大，这一方案在实验上具有更好的实用性。其具体模型为
+如示意图\ref{fig13}所示，在$s$-波超导体的基底上放置量子自旋霍尔绝缘体，在面内的$x$方向上存在着Zeeman场，而$y$方向则没有Zeeman，正是这个各向异性的Zeeman场使得不同的边界上诱导出相反的质量，从而可以在系统拐角处产生马约拉纳零能模。由于Zeeman场的存在破坏了时间反演对称，所以此时每个拐角处只有一个马约拉纳零能模。$s$-波超导体相比于其它的高温超导体虽然具有较低的超导转变温度，但是其超导相干长度较大，这一方案在实验上具有更好的实用性。其具体模型为
 \begin{equation}
 \begin{aligned}
 H(\mathbf{k})&=2\lambda_x\sin k_x\sigma_xs_z\tau_z+2\lambda_y\sin k_y\sigma_y\tau_z+(\xi_k\sigma_z-\mu)\tau_z+\Delta_0\tau_x+{\bf h\cdot s}\\
 \xi_k&=\epsilon_0-2t_x\cos k_x-2t_y\cos k_y\label{ze1}
 \end{aligned}
 \end{equation}
+可以得到系统低能有效哈密顿量为
+\begin{equation}
+H_{\textrm{edge},j}=-i\lambda_js_z\tau_z\partial_{l_j}+\Delta_0\tau_x+h_js_x\label{ef2}
+\end{equation}
+这里的参数为$\lambda_j=\{-2\lambda_y,2\lambda_x,2\lambda_y,-2\lambda_x\}，l_j=\{y,x,y,x\}，h_j=\{0,h_x,0,h_x\}$。从有效哈密顿量(\ref{ef2})中可以看到，所有的准粒子边界态都存在诱导出的超导序参量，但是Zeeman场并非出现在所有的边界上。而且$\{s_z\tau_z,\tau_x\}=0$，所有的准粒子边界态出现了超导电子配对的质量项，Zeeman场诱导的质量则只是出现在$x$边界上，$y$边界上始终是不存在的。
+
 在利用Zeeman场辅助实现高阶拓扑的这个模型中，各项异性的Zeeman场是重要的原料，而且要满足Zeeman场大于一定值的时候才会在系统拐角处出现马约拉纳零能模。随着Zeeman场逐渐变大，$x$方向上的边界态会经历能隙关闭然后打开能隙，而$y$方向上的边界态始终是无能隙的，边界态经历能隙关闭并打开的过程，正对应着拓扑相变，从而就会在边界的边界上（拐角）形成零能的束缚态。这种边界态经历相变从而实现的高阶拓扑相被称为边界阻塞拓扑相\cite{re46}。
 \subsection{异质结系统中的超导近邻效应}
- 在实现高阶拓扑超导的方案中，通常都需要用到异质结结构\cite{re27,re28,re29,re34,re38,re39,re45}。在异质结系统中，超导层的电子配对会被诱导到另外一层，这就是超导
+ 在实现高阶拓扑超导的方案中，通常都需要用到异质结结构\cite{re27,re28,re29,re34,re38,re39,re45}。在异质结系统中，与超导体相近邻的系统的表面上同样会被诱导出电子配对，这就是超导
 的近邻效应。在之前利用异质结结构研究高阶拓扑超导的研究中，近邻效应只是被唯象的考虑，即在模型中直接加入一个有效的电子配对,忽略了不同层能带之间的混合\cite{re27,re28,re29,re34,re38,re39,re45}。然而在实际中，对于一个混合体系，一个更加微观的模型应该同时考虑不同体系的原始哈密顿量，而且需要考虑它们之间的耦合。非超导层的电子配对应该是有层间电子隧穿诱导出来的。这样的一个微观模型已经在研究一阶拓扑超导的方案中受到关注，很多不同现象被发现\cite{re47,re48,re49,re50,re51,re52,re53,re54,re55}。特别注意的是，研究人员发现在近邻层诱导出的超导配对对称性与超导层的会不一致\cite{re48,re49}。
 
  在Be$_2$Se$_3$与Bi$_2$Sr$_2$CaCu$_2$O$_{8+\delta}$(BSCCO)的异质结中系统中，Yao等人\cite{re48}通过微观模型在平均场的层面研究了BSCCO在Bi$_2$Se$_3$中诱导的电子配对大小，模型设置及结果如图\ref{fig14}所示
@@ -278,7 +292,7 @@ H(\mathbf{k})&=2\lambda_x\sin k_x\sigma_xs_z\tau_z+2\lambda_y\sin k_y\sigma_y\ta
 铜基超导电子配对是$d$-波配对，旋转$90^\circ$或者沿着$x^{'}z$($x^{'}\sim \hat{x}+\hat{y}$)反射后是奇函数。如果拓扑绝缘体Be$_2$Se$_3$同样满足这样的条件，那么在其表面上诱导出的电子配对一定会存在$d$-波配对形式，而不会存在$s$-波形式的电子配对。所以在拓扑绝缘体表面上诱导出的电子配对就会存在节点。但是拓扑绝缘体Be$_2$Se$_3$的晶体结构并不满足这样的对称要求，异质结中两层材料之间晶体结构的不匹配导致有可能在Be$_2$Se$_3$表面上诱导出有限大小的$s$-波配对，从而在拓扑绝缘体的表面上可以同时存在$d$-波配对和$s$-波配对。随着拓扑绝缘体化学势的变化，体系的费米面形状也会随之改变，当费米面较小的时候，对于$d$-波这种各项异性较强的配对，其贡献就可以忽略，从而使得各项同性的$s$-波配对占主导。
 %=================================================================
 \subsection{本章总结}
- 本章主要介绍了通常的一阶拓扑相和高阶拓扑相的基本概念，并介绍了在理论上通过拓扑绝缘体和高温超导体异质结来实现告诫拓扑超导体的方案，并介绍了有效边界理论分析了高阶拓扑中拐角态的起源。而且通过不同的拓扑绝缘体模型，所需要的超导电子配对的形式也有所不同。之后又介绍了利用常规的$s$-波超导体外加一个面内的Zeeman场来实现高阶拓扑超导体，探寻马约拉纳拐角态的理论模型，这都为之后的实验涉及与理论研究奠定了一定的基础。最后通过对异质结中近邻效应的介绍，说明在这种结构中，近邻效应诱导的电子配对形式是多组分的，在真实的实验体系中，当不同配对组分之间比重相差不大时，并不能简单的通过唯象方式仅仅关心其中的某一种配对形式，这也给出了本论文的主要研究方向。
+ 本章主要介绍了通常的一阶拓扑相和高阶拓扑相的基本概念，并介绍了在理论上通过拓扑绝缘体和高温超导体异质结来实现高阶拓扑超导体的方案，并介绍了有效边界理论分析了高阶拓扑中拐角态的起源。而且通过不同的拓扑绝缘体模型，所需要的超导电子配对的形式也有所不同。之后又介绍了利用常规的$s$-波超导体外加一个面内的Zeeman场来实现高阶拓扑超导体，探寻马约拉纳拐角态的理论模型，这都为之后的实验涉及与理论研究奠定了一定的基础。最后通过对异质结中近邻效应的介绍，说明在这种结构中，近邻效应诱导的电子配对形式是多组分的，在真实的实验体系中，当不同配对组分之间比重相差不大时，并不能简单的通过唯象方式仅仅关心其中的某一种配对形式，这也给出了本论文的主要研究方向。
 
 
 
