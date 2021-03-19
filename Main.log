@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.3)  17 MAR 2021 15:27
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.3)  19 MAR 2021 20:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -762,24 +762,16 @@ File: cover/cover.pdf Graphic file (type pdf)
 <use cover/cover.pdf, page 1>
 File: cover/cover.pdf Graphic file (type pdf)
 <use cover/cover.pdf, page 1>
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[1
-
-
-]
 File: cover/cover.pdf Graphic file (type pdf)
 <use cover/cover.pdf, page 1>
 File: cover/cover.pdf Graphic file (type pdf)
 <use cover/cover.pdf, page 1>
 File: cover/cover.pdf Graphic file (type pdf)
 <use cover/cover.pdf, page 1>
- [2] (./abstract.tex
+ [1
+
+
+] (./abstract.tex
 
 Package fontspec Info: Could not resolve font "SimHei/BI" (it probably doesn't
 (fontspec)             exist).
@@ -809,12 +801,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.0pt
 (hyperref)                replaced by space on input line 16.
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
 [1] [2]
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15.05624> not available
-(Font)              size <14.4> substituted on input line 28.
+(Font)              size <14.4> substituted on input line 30.
 
-[3]) [4] (./Main.toc
+[3]) [4] [5] (./Main.toc
 Overfull \hbox (1.25916pt too wide) detected at line 2
  \TU/lmr/bx/n/15.05624 III
  []
@@ -827,25 +825,11 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.06> not available
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 4.
 
-[5])
+[6])
 \tf@toc=\write4
 \openout4 = `Main.toc'.
 
- [6] (./Main.lof [7]
-Overfull \hbox (1.44164pt too wide) in paragraph at lines 17--17
- [][] [][][]\TU/lmr/m/n/12 2D \TU/STSong(0)/m/n/12 拓 扑 绝 缘 体 层 谱 函 数 强 度 分 布。| 
-\TU/lmr/m/n/12 (a)$\OML/cmm/m/it/12 E \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\OT
-1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1$\TU/lmr/m/n/12 ,(b)$\OML/cmm/
-m/it/12 E \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/
-12 :\OT1/cmr/m/n/12 3$\TU/lmr/m/n/12 ,(c)$\OML/cmm/m/it/12 E \OT1/cmr/m/n/12 = 
-
- []
-
-)
-\tf@lof=\write5
-\openout5 = `Main.lof'.
-
- [8] (./section1.tex
+ [7] (./section1.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.0pt
@@ -1065,12 +1049,12 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 18325 strings out of 479418
- 373961 string characters out of 5890306
- 682156 words of memory out of 5000000
- 35440 multiletter control sequences out of 15000+600000
- 546292 words of font info for 134 fonts, out of 8000000 for 9000
+ 18297 strings out of 479418
+ 373002 string characters out of 5890306
+ 681253 words of memory out of 5000000
+ 35420 multiletter control sequences out of 15000+600000
+ 545120 words of font info for 126 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 56i,18n,68p,3328b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,18n,68p,2522b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.pdf (66 pages).
+Output written on Main.pdf (64 pages).
