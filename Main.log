@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.3)  19 MAR 2021 20:04
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.3)  20 MAR 2021 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -810,9 +810,20 @@ This may cause the page layout to be inconsistent, however.
 [1] [2]
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15.05624> not available
-(Font)              size <14.4> substituted on input line 30.
+(Font)              size <14.4> substituted on input line 34.
 
-[3]) [4] [5] (./Main.toc
+
+Overfull \hbox (15.78586pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/n/12 from a microscopic model. Except consider the superconductor and
+ the two-dimensional
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+) [4] (./Main.toc
 Overfull \hbox (1.25916pt too wide) detected at line 2
  \TU/lmr/bx/n/15.05624 III
  []
@@ -825,11 +836,11 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.06> not available
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 4.
 
-[6])
+[5])
 \tf@toc=\write4
 \openout4 = `Main.toc'.
 
- [7] (./section1.tex
+ [6] (./section1.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.0pt
@@ -1051,10 +1062,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
 Here is how much of TeX's memory you used:
  18297 strings out of 479418
  373002 string characters out of 5890306
- 681253 words of memory out of 5000000
+ 679253 words of memory out of 5000000
  35420 multiletter control sequences out of 15000+600000
  545120 words of font info for 126 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 56i,18n,68p,2522b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,18n,68p,840b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.pdf (64 pages).
+Output written on Main.pdf (63 pages).
