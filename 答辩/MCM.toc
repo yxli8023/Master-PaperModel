@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{研究背景}{3}{0}{1}
+\beamer@sectionintoc {2}{基本理论}{16}{0}{2}
+\beamer@sectionintoc {3}{计算结果}{18}{0}{3}
