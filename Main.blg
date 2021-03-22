@@ -28,45 +28,45 @@ Warning--empty pages in re36
 Warning--empty journal in re56
 
 Done.
-You've used 58 entries,
+You've used 59 entries,
             4554 wiz_defined-function locations,
-            1311 strings with 15072 characters,
-and the built_in function-call counts, 37114 in all, are:
-= -- 4424
-> -- 535
-< -- 53
-+ -- 318
-- -- 159
-* -- 2613
-:= -- 3858
-add.period$ -- 227
-call.type$ -- 58
+            1316 strings with 15163 characters,
+and the built_in function-call counts, 37754 in all, are:
+= -- 4504
+> -- 542
+< -- 54
++ -- 322
+- -- 161
+* -- 2655
+:= -- 3923
+add.period$ -- 231
+call.type$ -- 59
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 67
-duplicate$ -- 2594
-empty$ -- 3794
-format.name$ -- 159
-if$ -- 9366
+cite$ -- 68
+duplicate$ -- 2633
+empty$ -- 3859
+format.name$ -- 161
+if$ -- 9528
 int.to.chr$ -- 0
-int.to.str$ -- 58
+int.to.str$ -- 59
 missing$ -- 0
-newline$ -- 347
-num.names$ -- 58
-pop$ -- 288
+newline$ -- 353
+num.names$ -- 59
+pop$ -- 293
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1508
+skip$ -- 1535
 stack$ -- 0
-substring$ -- 3968
-swap$ -- 963
-text.length$ -- 53
+substring$ -- 4046
+swap$ -- 980
+text.length$ -- 54
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 754
+type$ -- 767
 warning$ -- 9
-while$ -- 300
-width$ -- 60
-write$ -- 515
+while$ -- 306
+width$ -- 61
+write$ -- 524
 (There were 3 error messages)
