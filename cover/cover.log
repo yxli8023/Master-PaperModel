@@ -1,434 +1,281 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.15)  24 JAN 2021 20:37
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.6)  10 SEP 2022 18:04
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **cover.tex
 (./cover.tex
-LaTeX2e <2018-12-01>
-(d:/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
-(d:/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@chapter=\count81
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@subparagraph=\count86
-\c@figure=\count87
-\c@table=\count88
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
+\c@part=\count181
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
 )
-(d:/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(d:/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks16
 )
-(d:/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count190
+\Gm@cntv=\count191
+\c@Gm@tempcnt=\count192
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
 )
-(d:/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(d:/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count89
-\Gm@cntv=\count90
-\c@Gm@tempcnt=\count91
-\Gm@bindingoffset=\dimen103
-\Gm@wd@mp=\dimen104
-\Gm@odd@mp=\dimen105
-\Gm@even@mp=\dimen106
-\Gm@layoutwidth=\dimen107
-\Gm@layoutheight=\dimen108
-\Gm@layouthoffset=\dimen109
-\Gm@layoutvoffset=\dimen110
-\Gm@dimlist=\toks15
-)
-(d:/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks16
-\AP@partial=\box27
-\AP@footins=\box28
+\AP@output=\toks18
+\AP@partial=\box50
+\AP@footins=\box51
 )
-(d:/texlive/texmf-dist/tex/latex/psnfss/times.sty
-Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
-(d:/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(d:/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(d:/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(d:/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 99.
+Package graphics Info: Driver file: xetex.def on input line 107.
 
-(d:/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen111
-\Gin@req@width=\dimen112
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
 )
-(d:/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks17
+\@emptytoks=\toks19
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(d:/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip43
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(d:/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
 
-(d:/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
-\ex@=\dimen113
+\@emptytoks=\toks20
+\ex@=\dimen149
 ))
-(d:/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen114
+\pmbraise@=\dimen150
 )
-(d:/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count92
-LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count93
-\leftroot@=\count94
-LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count95
-\DOTSCASE@=\count96
-LaTeX Info: Redefining \ldots on input line 482.
-LaTeX Info: Redefining \dots on input line 485.
-LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box29
-\strutbox@=\box30
-\big@size=\dimen115
-LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
-\dotsspace@=\muskip10
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
-\tag@help=\toks19
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
-\andhelp@=\toks20
-\eqnshift@=\dimen116
-\alignsep@=\dimen117
-\tagshift@=\dimen118
-\tagwidth@=\dimen119
-\totwidth@=\dimen120
-\lineht@=\dimen121
-\@envbody=\toks21
-\multlinegap=\skip44
-\multlinetaggap=\skip45
-\mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2844.
-LaTeX Info: Redefining \] on input line 2845.
+\inf@bad=\count193
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count194
+\leftroot@=\count195
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count196
+\DOTSCASE@=\count197
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count198
+\c@MaxMatrixCols=\count199
+\dotsspace@=\muskip16
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
+\tag@help=\toks21
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
+\andhelp@=\toks22
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks23
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
 )
-(d:/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(d:/texlive/texmf-dist/tex/latex/cite/cite.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(d:/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
 
-(d:/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(d:/texlive/texmf-dist/tex/latex/tools/calc.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count104
-\calc@Bcount=\count105
-\calc@Adimen=\dimen122
-\calc@Bdimen=\dimen123
-\calc@Askip=\skip46
-\calc@Bskip=\skip47
+\calc@Acount=\count271
+\calc@Bcount=\count272
+\calc@Adimen=\dimen158
+\calc@Bdimen=\dimen159
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count106
-\calc@Cskip=\skip48
+\calc@Ccount=\count273
+\calc@Cskip=\skip54
 )
-(d:/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen160
+\ESO@tempdimb=\dimen161
 
-(d:/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
-(d:/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(d:/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))
-(d:/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(d:/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+Package xcolor Info: Driver file: xetex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 ))
-\AM@pagewidth=\dimen124
-\AM@pageheight=\dimen125
+\AM@pagewidth=\dimen162
+\AM@pageheight=\dimen163
+\AM@fboxrule=\dimen164
 
-(d:/texlive/texmf-dist/tex/latex/pdfpages/ppxetex.def
-File: ppxetex.def 2017/10/31 v0.5l Pdfpages driver for XeTeX (AM)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pdfpages/ppxetex.def
+File: ppxetex.def 2022/01/29 v0.5u Pdfpages driver for XeTeX (AM)
 )
-\AM@pagebox=\box31
-\AM@global@opts=\toks23
-\AM@toc@title=\toks24
-\c@AM@survey=\count107
-\AM@templatesizebox=\box32
+\pdfpages@includegraphics@status=\count274
+\AM@pagebox=\box54
+\AM@global@opts=\toks25
+\AM@pagecnt=\count275
+\AM@toc@title=\toks26
+\c@AM@survey=\count276
+\AM@templatesizebox=\box55
 )
-(d:/texlive/texmf-dist/tex/latex/ctex/ctex.sty
-(d:/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-04-06 L3 programming layer (loader) 
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/ctex.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
 
-(d:/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-04-06 L3 programming layer (code)
-\c_max_int=\count108
-\l_tmpa_int=\count109
-\l_tmpb_int=\count110
-\g_tmpa_int=\count111
-\g_tmpb_int=\count112
-\g__kernel_prg_map_int=\count113
-\c__ior_term_ior=\count114
-\c_log_iow=\count115
-\l_iow_line_count_int=\count116
-\l__iow_line_target_int=\count117
-\l__iow_one_indent_int=\count118
-\l__iow_indent_int=\count119
-\c_zero_dim=\dimen126
-\c_max_dim=\dimen127
-\l_tmpa_dim=\dimen128
-\l_tmpb_dim=\dimen129
-\g_tmpa_dim=\dimen130
-\g_tmpb_dim=\dimen131
-\c_zero_skip=\skip49
-\c_max_skip=\skip50
-\l_tmpa_skip=\skip51
-\l_tmpb_skip=\skip52
-\g_tmpa_skip=\skip53
-\g_tmpb_skip=\skip54
-\c_zero_muskip=\muskip11
-\c_max_muskip=\muskip12
-\l_tmpa_muskip=\muskip13
-\l_tmpb_muskip=\muskip14
-\g_tmpa_muskip=\muskip15
-\g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count120
-\l__intarray_loop_int=\count121
-\c__intarray_sp_dim=\dimen132
-\g__intarray_font_int=\count122
-\c__fp_leading_shift_int=\count123
-\c__fp_middle_shift_int=\count124
-\c__fp_trailing_shift_int=\count125
-\c__fp_big_leading_shift_int=\count126
-\c__fp_big_middle_shift_int=\count127
-\c__fp_big_trailing_shift_int=\count128
-\c__fp_Bigg_leading_shift_int=\count129
-\c__fp_Bigg_middle_shift_int=\count130
-\c__fp_Bigg_trailing_shift_int=\count131
-\g__fp_array_int=\count132
-\l__fp_array_loop_int=\count133
-\l__sort_length_int=\count134
-\l__sort_min_int=\count135
-\l__sort_top_int=\count136
-\l__sort_max_int=\count137
-\l__sort_true_max_int=\count138
-\l__sort_block_int=\count139
-\l__sort_begin_int=\count140
-\l__sort_end_int=\count141
-\l__sort_A_int=\count142
-\l__sort_B_int=\count143
-\l__sort_C_int=\count144
-\l__tl_analysis_normal_int=\count145
-\l__tl_analysis_index_int=\count146
-\l__tl_analysis_nesting_int=\count147
-\l__tl_analysis_type_int=\count148
-\l__regex_internal_a_int=\count149
-\l__regex_internal_b_int=\count150
-\l__regex_internal_c_int=\count151
-\l__regex_balance_int=\count152
-\l__regex_group_level_int=\count153
-\l__regex_mode_int=\count154
-\c__regex_cs_in_class_mode_int=\count155
-\c__regex_cs_mode_int=\count156
-\l__regex_catcodes_int=\count157
-\l__regex_default_catcodes_int=\count158
-\c__regex_catcode_L_int=\count159
-\c__regex_catcode_O_int=\count160
-\c__regex_catcode_A_int=\count161
-\c__regex_all_catcodes_int=\count162
-\l__regex_show_lines_int=\count163
-\l__regex_min_state_int=\count164
-\l__regex_max_state_int=\count165
-\l__regex_left_state_int=\count166
-\l__regex_right_state_int=\count167
-\l__regex_capturing_group_int=\count168
-\l__regex_min_pos_int=\count169
-\l__regex_max_pos_int=\count170
-\l__regex_curr_pos_int=\count171
-\l__regex_start_pos_int=\count172
-\l__regex_success_pos_int=\count173
-\l__regex_curr_char_int=\count174
-\l__regex_curr_catcode_int=\count175
-\l__regex_last_char_int=\count176
-\l__regex_case_changed_char_int=\count177
-\l__regex_curr_state_int=\count178
-\l__regex_step_int=\count179
-\l__regex_min_active_int=\count180
-\l__regex_max_active_int=\count181
-\l__regex_replacement_csnames_int=\count182
-\l__regex_match_count_int=\count183
-\l__regex_min_submatch_int=\count184
-\l__regex_submatch_int=\count185
-\l__regex_zeroth_submatch_int=\count186
-\g__regex_trace_regex_int=\count187
-\c_empty_box=\box33
-\l_tmpa_box=\box34
-\l_tmpb_box=\box35
-\g_tmpa_box=\box36
-\g_tmpb_box=\box37
-\l__box_top_dim=\dimen133
-\l__box_bottom_dim=\dimen134
-\l__box_left_dim=\dimen135
-\l__box_right_dim=\dimen136
-\l__box_top_new_dim=\dimen137
-\l__box_bottom_new_dim=\dimen138
-\l__box_left_new_dim=\dimen139
-\l__box_right_new_dim=\dimen140
-\l__box_internal_box=\box38
-\l__coffin_internal_box=\box39
-\l__coffin_internal_dim=\dimen141
-\l__coffin_offset_x_dim=\dimen142
-\l__coffin_offset_y_dim=\dimen143
-\l__coffin_x_dim=\dimen144
-\l__coffin_y_dim=\dimen145
-\l__coffin_x_prime_dim=\dimen146
-\l__coffin_y_prime_dim=\dimen147
-\c_empty_coffin=\box40
-\l__coffin_aligned_coffin=\box41
-\l__coffin_aligned_internal_coffin=\box42
-\l_tmpa_coffin=\box43
-\l_tmpb_coffin=\box44
-\g_tmpa_coffin=\box45
-\g_tmpb_coffin=\box46
-\l__coffin_bounding_shift_dim=\dimen148
-\l__coffin_left_corner_dim=\dimen149
-\l__coffin_right_corner_dim=\dimen150
-\l__coffin_bottom_corner_dim=\dimen151
-\l__coffin_top_corner_dim=\dimen152
-\l__coffin_scaled_total_height_dim=\dimen153
-\l__coffin_scaled_width_dim=\dimen154
-\c__coffin_empty_coffin=\box47
-\l__coffin_display_coffin=\box48
-\l__coffin_display_coord_coffin=\box49
-\l__coffin_display_pole_coffin=\box50
-\l__coffin_display_offset_dim=\dimen155
-\l__coffin_display_x_dim=\dimen156
-\l__coffin_display_y_dim=\dimen157
-\g__file_internal_ior=\read1
-\l__seq_internal_a_int=\count188
-\l__seq_internal_b_int=\count189
-\c__deprecation_minus_one=\count190
-)
-(d:/texlive/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
-File: l3xdvipdfmx.def 2019-04-06 v L3 Experimental driver: xdvipdfmx
-\g__driver_image_int=\count191
-\g__driver_pdf_object_int=\count192
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
+
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count277
+\l__color_backend_stack_int=\count278
+\g__color_backend_stack_int=\count279
+\g__graphics_track_int=\count280
+\l__pdf_internal_box=\box56
+\g__pdf_backend_object_int=\count281
+\g__pdf_backend_annotation_int=\count282
+\g__pdf_backend_link_int=\count283
 ))
-Package: ctex 2019/04/07 v2.4.15 Chinese adapter in LaTeX (CTEX)
+Package: ctex 2021/12/12 v2.5.8 Chinese adapter in LaTeX (CTEX)
 
-(d:/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2019-03-05 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count193
-\g__xparse_grabber_int=\count194
-\l__xparse_m_args_int=\count195
-\l__xparse_v_nesting_int=\count196
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
 )
-(d:/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2019-03-05 LaTeX2e option processing using LaTeX3 keys
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2021/12/12 v2.5.8 Document and package hooks (CTEX)
 )
-(d:/texlive/texmf-dist/tex/latex/ctex/ctexhook.sty
-Package: ctexhook 2019/04/07 v2.4.15 Document and package hooks (CTEX)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2021/12/12 v2.5.8 Patching commands (CTEX)
 )
-(d:/texlive/texmf-dist/tex/latex/ctex/ctexpatch.sty
-Package: ctexpatch 2019/04/07 v2.4.15 Patching commands (CTEX)
-)
-(d:/texlive/texmf-dist/tex/latex/base/fix-cm.sty
-Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 
-(d:/texlive/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-(d:/texlive/texmf-dist/tex/latex/ms/everysel.sty
-Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+\l__ctex_tmp_int=\count284
+\l__ctex_tmp_box=\box57
+\l__ctex_tmp_dim=\dimen165
+\g__ctex_section_depth_int=\count285
+\g__ctex_font_size_int=\count286
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+File: ctexopts.cfg 2021/12/12 v2.5.8 Option configuration file (CTEX)
 )
-\l__ctex_tmp_int=\count197
-\l__ctex_tmp_box=\box51
-\l__ctex_tmp_dim=\dimen158
-\g__ctex_section_depth_int=\count198
-\g__ctex_font_size_int=\count199
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+File: ctex-engine-xetex.def 2021/12/12 v2.5.8 XeLaTeX adapter (CTEX)
+(/usr/local/texlive/2022/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2021/12/12 v3.8.8 Typesetting CJK scripts with XeLaTeX
 
-(d:/texlive/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
-File: ctexopts.cfg 2019/04/07 v2.4.15 Option configuration file (CTEX)
-)
-(d:/texlive/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
-File: ctex-engine-xetex.def 2019/04/07 v2.4.15 XeLaTeX adapter (CTEX)
-
-(d:/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
-Package: xeCJK 2019/04/07 v3.7.2 Typesetting CJK scripts with XeLaTeX
-
-(d:/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
-Package: xtemplate 2019-03-05 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen159
-\l__xtemplate_tmp_int=\count266
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y
+Package: xtemplate 2022-01-12 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen166
+\l__xtemplate_tmp_int=\count287
 \l__xtemplate_tmp_muskip=\muskip17
 \l__xtemplate_tmp_skip=\skip55
 )
-\l__xeCJK_tmp_int=\count267
-\l__xeCJK_tmp_box=\box52
-\l__xeCJK_tmp_dim=\dimen160
+\l__xeCJK_tmp_int=\count288
+\l__xeCJK_tmp_box=\box58
+\l__xeCJK_tmp_dim=\dimen167
 \l__xeCJK_tmp_skip=\skip56
-\g__xeCJK_space_factor_int=\count268
-\l__xeCJK_begin_int=\count269
-\l__xeCJK_end_int=\count270
+\g__xeCJK_space_factor_int=\count289
+\l__xeCJK_begin_int=\count290
+\l__xeCJK_end_int=\count291
 \c__xeCJK_CJK_class_int=\XeTeXcharclass1
 \c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
 \c__xeCJK_FullRight_class_int=\XeTeXcharclass3
@@ -438,212 +285,165 @@ Package: xtemplate 2019-03-05 L3 Experimental prototype document functions
 \c__xeCJK_CM_class_int=\XeTeXcharclass7
 \c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
 \l__xeCJK_last_skip=\skip57
-\g__xeCJK_node_int=\count271
-\c__xeCJK_CJK_node_dim=\dimen161
-\c__xeCJK_CJK-space_node_dim=\dimen162
-\c__xeCJK_default_node_dim=\dimen163
-\c__xeCJK_default-space_node_dim=\dimen164
-\c__xeCJK_CJK-widow_node_dim=\dimen165
-\c__xeCJK_normalspace_node_dim=\dimen166
+\g__xeCJK_node_int=\count292
+\c__xeCJK_CJK_node_dim=\dimen168
+\c__xeCJK_CJK-space_node_dim=\dimen169
+\c__xeCJK_default_node_dim=\dimen170
+\c__xeCJK_default-space_node_dim=\dimen171
+\c__xeCJK_CJK-widow_node_dim=\dimen172
+\c__xeCJK_normalspace_node_dim=\dimen173
 \l__xeCJK_ccglue_skip=\skip58
 \l__xeCJK_ecglue_skip=\skip59
 \l__xeCJK_punct_kern_skip=\skip60
-\l__xeCJK_last_penalty_int=\count272
-\l__xeCJK_last_bound_dim=\dimen167
-\l__xeCJK_last_kern_dim=\dimen168
-\l__xeCJK_widow_penalty_int=\count273
+\l__xeCJK_last_penalty_int=\count293
+\l__xeCJK_last_bound_dim=\dimen174
+\l__xeCJK_last_kern_dim=\dimen175
+\l__xeCJK_widow_penalty_int=\count294
 
 Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
-(xtemplate)             argument(s) on line 2352.
+(xtemplate)             argument(s) on line 2337.
 
-\l__xeCJK_fixed_punct_width_dim=\dimen169
-\l__xeCJK_mixed_punct_width_dim=\dimen170
-\l__xeCJK_middle_punct_width_dim=\dimen171
-\l__xeCJK_fixed_margin_width_dim=\dimen172
-\l__xeCJK_mixed_margin_width_dim=\dimen173
-\l__xeCJK_middle_margin_width_dim=\dimen174
-\l__xeCJK_bound_punct_width_dim=\dimen175
-\l__xeCJK_bound_margin_width_dim=\dimen176
-\l__xeCJK_margin_minimum_dim=\dimen177
-\l__xeCJK_kerning_total_width_dim=\dimen178
-\l__xeCJK_same_align_margin_dim=\dimen179
-\l__xeCJK_different_align_margin_dim=\dimen180
-\l__xeCJK_kerning_margin_width_dim=\dimen181
-\l__xeCJK_kerning_margin_minimum_dim=\dimen182
-\l__xeCJK_bound_dim=\dimen183
-\l__xeCJK_reverse_bound_dim=\dimen184
-\l__xeCJK_minimum_bound_dim=\dimen185
-\l__xeCJK_kerning_margin_dim=\dimen186
-\l__xeCJK_original_margin_dim=\dimen187
-\g__xeCJK_family_int=\count274
-\l__xeCJK_fam_int=\count275
-\g__xeCJK_fam_allocation_int=\count276
-\l__xeCJK_verb_case_int=\count277
+\l__xeCJK_fixed_punct_width_dim=\dimen176
+\l__xeCJK_mixed_punct_width_dim=\dimen177
+\l__xeCJK_middle_punct_width_dim=\dimen178
+\l__xeCJK_fixed_margin_width_dim=\dimen179
+\l__xeCJK_mixed_margin_width_dim=\dimen180
+\l__xeCJK_middle_margin_width_dim=\dimen181
+\l__xeCJK_bound_punct_width_dim=\dimen182
+\l__xeCJK_bound_margin_width_dim=\dimen183
+\l__xeCJK_margin_minimum_dim=\dimen184
+\l__xeCJK_kerning_total_width_dim=\dimen185
+\l__xeCJK_same_align_margin_dim=\dimen186
+\l__xeCJK_different_align_margin_dim=\dimen187
+\l__xeCJK_kerning_margin_width_dim=\dimen188
+\l__xeCJK_kerning_margin_minimum_dim=\dimen189
+\l__xeCJK_bound_dim=\dimen190
+\l__xeCJK_reverse_bound_dim=\dimen191
+\l__xeCJK_margin_dim=\dimen192
+\l__xeCJK_minimum_bound_dim=\dimen193
+\l__xeCJK_kerning_margin_dim=\dimen194
+\g__xeCJK_family_int=\count295
+\l__xeCJK_fam_int=\count296
+\g__xeCJK_fam_allocation_int=\count297
+\l__xeCJK_verb_case_int=\count298
 \l__xeCJK_verb_exspace_skip=\skip61
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 
-(d:/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
-
-(d:/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTe
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count278
-\l__fontspec_language_int=\count279
-\l__fontspec_strnum_int=\count280
-\l__fontspec_tmp_int=\count281
-\l__fontspec_tmpa_int=\count282
-\l__fontspec_tmpb_int=\count283
-\l__fontspec_tmpc_int=\count284
-\l__fontspec_em_int=\count285
-\l__fontspec_emdef_int=\count286
-\l__fontspec_strong_int=\count287
-\l__fontspec_strongdef_int=\count288
-\l__fontspec_tmpa_dim=\dimen188
-\l__fontspec_tmpb_dim=\dimen189
-\l__fontspec_tmpc_dim=\dimen190
+\l__fontspec_script_int=\count299
+\l__fontspec_language_int=\count300
+\l__fontspec_strnum_int=\count301
+\l__fontspec_tmp_int=\count302
+\l__fontspec_tmpa_int=\count303
+\l__fontspec_tmpb_int=\count304
+\l__fontspec_tmpc_int=\count305
+\l__fontspec_em_int=\count306
+\l__fontspec_emdef_int=\count307
+\l__fontspec_strong_int=\count308
+\l__fontspec_strongdef_int=\count309
+\l__fontspec_tmpa_dim=\dimen195
+\l__fontspec_tmpb_dim=\dimen196
+\l__fontspec_tmpc_dim=\dimen197
 
-(d:/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-
-(d:/texlive/texmf-dist/tex/latex/base/tuenc.def
-File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
-))
-(d:/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)
-LaTeX Info: Redefining \itshape on input line 4051.
-LaTeX Info: Redefining \slshape on input line 4056.
-LaTeX Info: Redefining \scshape on input line 4061.
-LaTeX Info: Redefining \upshape on input line 4066.
-LaTeX Info: Redefining \em on input line 4096.
-LaTeX Info: Redefining \emph on input line 4121.
-))
-(d:/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
-File: xeCJK.cfg 2019/04/07 v3.7.2 Configuration file for xeCJK package
-))
-(d:/texlive/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
-Package: xeCJKfntef 2019/04/07 v3.7.2 xeCJK font effect
-
-(d:/texlive/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box53
-\UL@hyphenbox=\box54
-\UL@skip=\skip62
-\UL@hook=\toks25
-\UL@height=\dimen191
-\UL@pe=\count289
-\UL@pixel=\dimen192
-\ULC@box=\box55
-Package: ulem 2012/05/18
-\ULdepth=\dimen193
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(d:/texlive/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
-Package: CJKfntef 2015/04/18 4.8.4
-\CJK@fntefSkip=\skip63
-\CJK@nest=\count290
-\CJK@fntefDimen=\dimen194
-\CJK@underdotBox=\box56
-\CJK@ULbox=\box57
-\CJK@underanyskip=\dimen195
-)
-\l__xeCJK_space_skip=\skip64
-\c__xeCJK_ulem-begin_node_dim=\dimen196
-\c__xeCJK_null_box=\box58
-\l__xeCJK_fntef_box=\box59
-\l__xeCJK_under_symbol_box=\box60
-\c__xeCJK_filll_skip=\skip65
-)
-\ccwd=\dimen197
-\l__ctex_ccglue_skip=\skip66
-)
-\l__ctex_ziju_dim=\dimen198
-
-(d:/texlive/texmf-dist/tex/latex/zhnumber/zhnumber.sty
-Package: zhnumber 2019/04/07 v2.7 Typesetting numbers with Chinese glyphs
-\l__zhnum_scale_int=\count291
-
-(d:/texlive/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
-File: zhnumber-utf8.cfg 2019/04/07 v2.7 Chinese numerals with UTF8 encoding
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2022/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+File: xeCJK.cfg 2021/12/12 v3.8.8 Configuration file for xeCJK package
 ))
-(d:/texlive/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
-File: ctex-scheme-chinese.def 2019/04/07 v2.4.15 Chinese scheme for generic (CT
-EX)
-
-(d:/texlive/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
-File: ctex-name-utf8.cfg 2019/04/07 v2.4.15 Caption with encoding UTF8 (CTEX)
-))
-(d:/texlive/texmf-dist/tex/latex/ctex/ctex-c5size.clo
-File: ctex-c5size.clo 2019/04/07 v2.4.15 c5size option (CTEX)
+\ccwd=\dimen198
+\l__ctex_ccglue_skip=\skip62
 )
-(d:/texlive/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
-File: ctex-fontset-windows.def 2019/04/07 v2.4.15 Windows fonts definition (CTE
+\l__ctex_ziju_dim=\dimen199
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2020/05/01 v2.8 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count310
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+File: zhnumber-utf8.cfg 2020/05/01 v2.8 Chinese numerals with UTF8 encoding
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.d
+ef
+File: ctex-scheme-chinese.def 2021/12/12 v2.5.8 Chinese scheme for generic (CTE
 X)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+File: ctex-name-utf8.cfg 2021/12/12 v2.5.8 Caption with encoding UTF-8 (CTEX)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/ctex-c5size.clo
+File: ctex-c5size.clo 2021/12/12 v2.5.8 c5size option (CTEX)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-mac.def
+File: ctex-fontset-mac.def 2021/12/12 v2.5.8 macOS fonts definition (CTEX)
 
-(d:/texlive/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windowsnew.def
-File: ctex-fontset-windowsnew.def 2019/04/07 v2.4.15 Windows fonts definition f
-or Vista or later version (CTEX)
-
-Package fontspec Info: Could not resolve font "KaiTi/B" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Could not resolve font "SimHei/I" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Could not resolve font "SimSun/BI" (it probably doesn't
-(fontspec)             exist).
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-macnew.
+def
+File: ctex-fontset-macnew.def 2021/12/12 v2.5.8 macOS fonts definition for El C
+apitan or later version (CTEX)
 
 
-Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
-(fontspec)             options
-(fontspec)             [Script={CJK},BoldFont={SimHei},ItalicFont={KaiTi}].
+Package fontspec Warning: Font "Songti SC Light" does not contain requested
+(fontspec)                Script "CJK".
+
+
+Package fontspec Info: Font family 'SongtiSCLight(0)' created for font 'Songti
+(fontspec)             SC Light' with options
+(fontspec)             [Script={CJK},BoldItalicFont={Kaiti SC
+(fontspec)             Bold},BoldFont={Songti SC Bold},ItalicFont={Kaiti SC}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"SimSun/OT:script=hani;language=DFLT;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Songti SC
+(fontspec)             Light/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->"SimHei/OT:script=hani;language=DFLT;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"KaiTi/OT:script=hani;language=DFLT;"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Songti SC
+(fontspec)             Bold/OT:language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Kaiti
+(fontspec)             SC/OT:language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Kaiti SC
+(fontspec)             Bold/OT:language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-)))
-(d:/texlive/texmf-dist/tex/latex/ctex/config/ctex.cfg
-File: ctex.cfg 2019/04/07 v2.4.15 Configuration file (CTEX)
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/config/ctex.cfg
+File: ctex.cfg 2021/12/12 v2.5.8 Configuration file (CTEX)
 )
-(d:/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip67
-\f@nch@O@elh=\skip68
-\f@nch@O@erh=\skip69
-\f@nch@O@olh=\skip70
-\f@nch@O@orh=\skip71
-\f@nch@O@elf=\skip72
-\f@nch@O@erf=\skip73
-\f@nch@O@olf=\skip74
-\f@nch@O@orf=\skip75
-) (./cover.aux)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip63
+\f@nch@O@elh=\skip64
+\f@nch@O@erh=\skip65
+\f@nch@O@olh=\skip66
+\f@nch@O@orh=\skip67
+\f@nch@O@elf=\skip68
+\f@nch@O@erf=\skip69
+\f@nch@O@olf=\skip70
+\f@nch@O@orf=\skip71
+)
+(./cover.aux)
 \openout1 = `cover.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
@@ -682,18 +482,19 @@ LaTeX Font Info:    ... okay on input line 34.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box61
-(d:/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
-(d:/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
-)
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 34.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+))
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
@@ -737,19 +538,19 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 34.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 34.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 34.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 34.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 34.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 34.
 File: logo.jpg Graphic file (type bmp)
 <logo.jpg>
 
@@ -759,33 +560,37 @@ Package xeCJK Warning: Unknown CJK family `song' is being ignored.
 (xeCJK)                Try to use `\setCJKfamilyfont{song}[...]{...}' to
 (xeCJK)                define it.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 41.
-(d:/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
 
-(d:/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 47.
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 84.62976pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 85.41206pt, for example:
+(fancyhdr)                \setlength{\headheight}{85.41206pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-73.41206pt}.
 
 [1
 
 ] (./cover.aux) ) 
 Here is how much of TeX's memory you used:
- 18562 strings out of 492922
- 401763 string characters out of 6138841
- 475826 words of memory out of 5000000
- 22386 multiletter control sequences out of 15000+600000
- 539012 words of font info for 80 fonts, out of 8000000 for 9000
+ 9570 strings out of 476179
+ 235116 string characters out of 5809545
+ 578826 words of memory out of 5000000
+ 30150 multiletter control sequences out of 15000+600000
+ 477461 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 54i,14n,68p,362b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 89i,14n,97p,361b,301s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on cover.pdf (1 page).
